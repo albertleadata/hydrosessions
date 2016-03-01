@@ -1,0 +1,7 @@
+# Ensure this file isn't ignored
+!.gitignore
+# Ignore anything with these extensions:
+*.wav
+*.mp3
+# Ignore autosave files
+*autosave*

@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1456601769" tv-usec="70801" name="move tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo start="3|3|0" beats-per-minute="87.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|2|0" beats-per-minute="88.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|3|0" beats-per-minute="92.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="8|3|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="9|2|0" beats-per-minute="98.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="10|3|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="11|2|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|2|0" beats-per-minute="102.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="16|2|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="17|3|0" beats-per-minute="103.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="103.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|3|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="99.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|3|0" beats-per-minute="99.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|1|0" beats-per-minute="100.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|4|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="38|1|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="44|3|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|1|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="48|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="50|4|0" beats-per-minute="100.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|4|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="52|4|0" beats-per-minute="99.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="58|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|2|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="74|1|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|2|0" beats-per-minute="107.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|3|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|1|0" beats-per-minute="105.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="85|1|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|2|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|2|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="97|2|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="103.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="103|1|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="107|4|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="110|4|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="117|3|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo start="3|3|0" beats-per-minute="87.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|2|0" beats-per-minute="88.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|3|0" beats-per-minute="92.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="8|3|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="9|2|0" beats-per-minute="98.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="10|3|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="11|2|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|2|0" beats-per-minute="102.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="16|2|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="17|3|0" beats-per-minute="103.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="103.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|3|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="99.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|3|0" beats-per-minute="99.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|1|0" beats-per-minute="100.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|4|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="38|1|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="44|3|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|1|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="48|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="50|4|0" beats-per-minute="100.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|4|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="52|4|0" beats-per-minute="99.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="58|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|2|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="74|1|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|2|0" beats-per-minute="107.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|3|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|1|0" beats-per-minute="105.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="85|1|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|2|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|2|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="97|2|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="103.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="103|1|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="107|4|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="110|4|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="117|1|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="11890688" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="180" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="11890688" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="180" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456603409" tv-usec="219809" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="mark1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="2748416" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="180" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="2748416" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1042" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456603417" tv-usec="805237" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="mark1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="2748416" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1042" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="2748416" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1042" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456603437" tv-usec="306890" name="add tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo start="3|3|0" beats-per-minute="87.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|2|0" beats-per-minute="88.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|3|0" beats-per-minute="92.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="8|3|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="9|2|0" beats-per-minute="98.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="10|3|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="11|2|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|2|0" beats-per-minute="102.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="16|2|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="17|3|0" beats-per-minute="103.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="103.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|3|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="99.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|3|0" beats-per-minute="99.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|1|0" beats-per-minute="100.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|4|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="38|1|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="44|3|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|1|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="48|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="50|4|0" beats-per-minute="100.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|4|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="52|4|0" beats-per-minute="99.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="58|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|2|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="74|1|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|2|0" beats-per-minute="107.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|3|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|1|0" beats-per-minute="105.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="85|1|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|2|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|2|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="97|2|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="103.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="103|1|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="107|4|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="110|4|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="117|1|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+        <Tempo start="3|3|0" beats-per-minute="87.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|2|0" beats-per-minute="88.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|3|0" beats-per-minute="92.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="8|3|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="9|2|0" beats-per-minute="98.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="10|3|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="11|2|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|2|0" beats-per-minute="102.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="16|2|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="17|3|0" beats-per-minute="103.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="103.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|3|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="99.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|3|0" beats-per-minute="99.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|1|0" beats-per-minute="100.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|4|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|4|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="38|1|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="44|3|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|1|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="48|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="99.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="50|4|0" beats-per-minute="100.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|4|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="52|4|0" beats-per-minute="99.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="58|4|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|2|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="74|1|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|2|0" beats-per-minute="107.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|3|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|1|0" beats-per-minute="105.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="85|1|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|2|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|2|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="97|2|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="103.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="103|1|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="107|4|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="110|4|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="117|1|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="2748416" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1042" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="2748416" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1042" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604574" tv-usec="881732" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="mark1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1042" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1052" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604582" tv-usec="321589" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="mark1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1052" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1052" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604655" tv-usec="437105" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="mark1" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1052" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1059" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604664" tv-usec="454188" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="mark1" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1059" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1059" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604678" tv-usec="627267" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="mark1" start="5629952" end="5629952" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1059" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1066" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604685" tv-usec="477834" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="mark1" start="5629952" end="5629952" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5629952" end="5629952" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1066" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1066" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604691" tv-usec="980419" name="move marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5629952" end="5629952" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1066" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4448256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1066" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604814" tv-usec="93890" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="mark1" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="5443584" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1066" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="5443584" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1077" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604820" tv-usec="943760" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="mark1" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="5443584" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1077" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="5443584" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1077" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604864" tv-usec="339094" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="mark1" start="8632320" end="8632320" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1077" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1084" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604870" tv-usec="861525" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="mark1" start="8632320" end="8632320" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8632320" end="8632320" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1084" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1084" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604876" tv-usec="436263" name="move marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8632320" end="8632320" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8648704" end="8648704" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1084" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1084" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604906" tv-usec="385326" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8648704" end="8648704" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8648704" end="8648704" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1095" name="mark1" start="9992192" end="9992192" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1084" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1095" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604913" tv-usec="395743" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8648704" end="8648704" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1095" name="mark1" start="9992192" end="9992192" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8648704" end="8648704" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1095" name="Verse3" start="9992192" end="9992192" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1095" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="8192000" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1095" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604976" tv-usec="542483" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8648704" end="8648704" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1095" name="Verse3" start="9992192" end="9992192" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8648704" end="8648704" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1095" name="Verse3" start="9992192" end="9992192" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1102" name="mark1" start="11765760" end="11765760" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10592256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1095" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10592256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1102" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1456604986" tv-usec="120971" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8648704" end="8648704" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1095" name="Verse3" start="9992192" end="9992192" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1102" name="mark1" start="11765760" end="11765760" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="180" name="session" start="284672" end="13873320" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="229" name="Click" start="352256" end="352256" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1042" name="Chorus1" start="4159488" end="4159488" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1052" name="Verse1" start="2342912" end="2342912" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1059" name="Intro2" start="5289984" end="5289984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1066" name="Verse2" start="5734400" end="5734400" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1077" name="Chorus2" start="7569408" end="7569408" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1084" name="GtrSolo" start="8648704" end="8648704" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1095" name="Verse3" start="9992192" end="9992192" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1102" name="Chorus3" start="11765760" end="11765760" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10592256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1102" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10592256" y-origin="0.000000">
+        <Selection>
+          <Region id="169"/>
+          <Marker id="1102" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+</UndoHistory>

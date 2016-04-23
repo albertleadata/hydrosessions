@@ -1,0 +1,2250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1455172161" tv-usec="533546" name="replace tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="12776100" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="12776100" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172164" tv-usec="720610" name="move tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="12776100" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="12776100" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172207" tv-usec="641586" name="replace tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172228" tv-usec="360353" name="replace tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172268" tv-usec="263377" name="add tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="95|4|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172272" tv-usec="35170" name="move tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="95|4|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="96|1|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172278" tv-usec="842375" name="move tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="92|4|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="96|1|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="96|1|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="13234198" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="1004" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172332" tv-usec="240461" name="move marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15738777" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15773307" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="14779991" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="14779991" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172342" tv-usec="136161" name="move marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15773307" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="14779991" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="14779991" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172481" tv-usec="651615" name="move tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="96|1|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|3|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="96|1|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="5185255" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="5185255" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172503" tv-usec="488432" name="move tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="34|3|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="96|1|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="35|3|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="96|1|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="5185255" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="5185255" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455172519" tv-usec="343787" name="move tempo mark">
+    <MementoCommand obj-id="58" type-name="ARDOUR::TempoMap">
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="35|3|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="96|1|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+      <TempoMap>
+        <Tempo start="1|1|0" beats-per-minute="94.000000" note-type="4.000000" movable="no"/>
+        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="no"/>
+        <Tempo start="3|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="4|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="5|6|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="6|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="7|6|0" beats-per-minute="95.160000" note-type="4.000000" movable="yes"/>
+        <Tempo start="12|5|0" beats-per-minute="94.900000" note-type="4.000000" movable="yes"/>
+        <Tempo start="13|6|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="14|5|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="15|6|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Meter start="16|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="17|2|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="18|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="19|4|0" beats-per-minute="94.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="21|4|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="22|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="23|2|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|1|0" beats-per-minute="92.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="24|4|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="25|4|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="26|4|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="27|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="28|3|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="29|3|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="30|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="31|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="32|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Meter start="33|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="33|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="33|6|0" beats-per-minute="93.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="35|2|0" beats-per-minute="94.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|1|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="36|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="37|5|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="39|3|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="40|5|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="41|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="42|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="43|3|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="45|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="46|5|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="47|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="47|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="47|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="49|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="51|3|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="53|4|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="54|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="55|1|0" beats-per-minute="93.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|2|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="57|4|0" beats-per-minute="94.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="59|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="61|2|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="62|1|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="64|1|0" note-type="4.000000" divisions-per-bar="7.000000" movable="yes"/>
+        <Tempo start="64|5|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Meter start="65|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="65|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="65|4|0" beats-per-minute="95.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="67|2|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="68|1|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="69|1|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|1|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="70|4|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="71|4|0" beats-per-minute="94.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="73|2|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="75|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="76|4|0" beats-per-minute="97.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="77|3|0" beats-per-minute="97.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="78|2|0" beats-per-minute="95.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="79|3|0" beats-per-minute="96.400000" note-type="4.000000" movable="yes"/>
+        <Tempo start="80|4|0" beats-per-minute="96.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="83|3|0" beats-per-minute="94.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="84|2|0" beats-per-minute="93.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="86|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="87|4|0" beats-per-minute="95.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="88|3|0" beats-per-minute="96.200000" note-type="4.000000" movable="yes"/>
+        <Tempo start="89|3|0" beats-per-minute="95.800000" note-type="4.000000" movable="yes"/>
+        <Tempo start="90|3|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="93|1|0" beats-per-minute="95.600000" note-type="4.000000" movable="yes"/>
+        <Meter start="94|1|0" note-type="8.000000" divisions-per-bar="9.000000" movable="yes"/>
+        <Meter start="95|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+        <Tempo start="95|2|0" beats-per-minute="97.000000" note-type="4.000000" movable="yes"/>
+        <Tempo start="96|1|0" beats-per-minute="97.600000" note-type="4.000000" movable="yes"/>
+        <Tempo start="99|3|0" beats-per-minute="96.000000" note-type="4.000000" movable="yes"/>
+      </TempoMap>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="5185255" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="5185255" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455174684" tv-usec="543716" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="mark1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="181" start="no"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2836" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455174692" tv-usec="271927" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="mark1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2836" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="0" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2836" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455174746" tv-usec="570789" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="mark1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="2330775" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2836" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="2330775" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2843" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455174755" tv-usec="141127" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="mark1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="Transition1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="2330775" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2843" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="2330775" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2843" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455175578" tv-usec="752942" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="Transition1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="Transition1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2850" name="mark1" start="5443079" end="5443079" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="4862975" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2843" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="4862975" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2850" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455175586" tv-usec="152073" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="Transition1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2850" name="mark1" start="5443079" end="5443079" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="Transition1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2850" name="Intro2" start="5443079" end="5443079" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="4862975" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2850" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="4862975" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2850" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455175610" tv-usec="351929" name="add marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="Transition1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2850" name="Intro2" start="5443079" end="5443079" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="Transition1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2850" name="Intro2" start="5443079" end="5443079" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2857" name="mark1" start="6321292" end="6321292" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="4862975" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2850" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="4862975" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2857" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1455175616" tv-usec="760226" name="rename marker">
+    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="Transition1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2850" name="Intro2" start="5443079" end="5443079" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2857" name="mark1" start="6321292" end="6321292" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="181" name="session" start="195386" end="15720361" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+        <Location id="1004" name="Click" start="211128" end="211128" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2836" name="Verse1" start="1247684" end="1247684" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2843" name="Transition1" start="3177911" end="3177911" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2850" name="Intro2" start="5443079" end="5443079" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+        <Location id="2857" name="Verrse2" start="6321292" end="6321292" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="19" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="4862975" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2857" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1151" left-frame="4862975" y-origin="0.000000">
+        <Selection>
+          <Region id="943"/>
+          <Marker id="2857" start="yes"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+</UndoHistory>

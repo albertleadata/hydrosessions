@@ -8,4 +8,4 @@
 # Ignore autosave files
 *autosave*
 # Ignore peak directory
-*/peaks/*
+*peaks*

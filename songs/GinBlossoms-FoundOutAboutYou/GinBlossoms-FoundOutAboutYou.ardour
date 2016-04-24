@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="GinBlossoms-FoundOutAboutYou" sample-rate="48000" id-counter="103" event-counter="2">
+<Session version="3001" name="GinBlossoms-FoundOutAboutYou" sample-rate="48000" id-counter="1074" event-counter="809">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -35,7 +35,7 @@
     <Option name="jack-time-master" value="1"/>
     <Option name="use-video-sync" value="0"/>
     <Option name="video-pullup" value="0"/>
-    <Option name="external-sync" value="0"/>
+    <Option name="external-sync" value="1"/>
     <Option name="insert-merge-policy" value="1"/>
     <Option name="timecode-offset" value="0"/>
     <Option name="timecode-offset-negative" value="1"/>
@@ -62,15 +62,39 @@
     <Option name="meterbridge-label-height" value="0"/>
   </Config>
   <Metadata/>
-  <Sources/>
-  <Regions/>
-  <Locations/>
+  <Sources>
+    <Source name="GinBlossoms-FoundOutAboutYou%L.wav" type="audio" flags="" id="177" channel="0" origin=""/>
+    <Source name="GinBlossoms-FoundOutAboutYou%R.wav" type="audio" flags="" id="179" channel="0" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="GinBlossoms-FoundOutAboutYou" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11203397" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="181" type="audio" first-edit="nothing" source-0="177" source-1="179" master-source-0="177" master-source-1="179" channels="2"/>
+  </Regions>
+  <Locations>
+    <Location id="254" name="session" start="0" end="11352487" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="416" name="Intro02" start="519750" end="519750" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="427" name="AudioStart" start="148039" end="148039" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="442" name="Verse01a" start="845894" end="845894" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="452" name="Verse01b" start="1521588" end="1521588" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="462" name="Verse02a" start="2231322" end="2231322" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="475" name="Verse02b" start="2908718" end="2908718" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="488" name="Chorus01" start="3589518" end="3589518" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="498" name="Verse03a" start="4265212" end="4265212" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="758" name="Verse03b" start="4940906" end="4940906" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="768" name="Chorus02" start="5630216" end="5630216" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="778" name="GtrSolo" start="6328036" end="6328036" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="795" name="Verse04a" start="7727080" end="7727080" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="811" name="Chorus03" start="9059746" end="9059746" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+  </Locations>
   <Bundles/>
   <Routes>
     <Route id="28" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Master" id="47" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Master/audio_in 1"/>
-        <Port type="audio" name="Master/audio_in 2"/>
+        <Port type="audio" name="Master/audio_in 1">
+          <Connection other="GinBlossoms-FoundOutAboutYou/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_in 2">
+          <Connection other="GinBlossoms-FoundOutAboutYou/audio_out 2"/>
+        </Port>
       </IO>
       <IO name="Master" id="48" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_out 1">
@@ -112,8 +136,93 @@
         </Pannable>
       </Processor>
     </Route>
+    <Route id="190" name="GinBlossoms-FoundOutAboutYou" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="GinBlossoms-FoundOutAboutYou" id="209" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="GinBlossoms-FoundOutAboutYou/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+        <Port type="audio" name="GinBlossoms-FoundOutAboutYou/audio_in 2">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="GinBlossoms-FoundOutAboutYou" id="210" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="GinBlossoms-FoundOutAboutYou/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="GinBlossoms-FoundOutAboutYou/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="192" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="194" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="1"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="200" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="204" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="202" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="206" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="208" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="214" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="216" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="211" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="213" flags="GainLike" value="0.070212453604"/>
+      </Processor>
+      <Processor id="217" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
+      <Processor id="218" name="GinBlossoms-FoundOutAboutYou" active="yes" user-latency="0" own-input="yes" own-output="no" output="GinBlossoms-FoundOutAboutYou" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="200" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="204" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="202" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="206" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="208" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="220" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="GinBlossoms-FoundOutAboutYou" name="GinBlossoms-FoundOutAboutYou" id="222" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
   </Routes>
-  <Playlists/>
+  <Playlists>
+    <Playlist id="223" name="GinBlossoms-FoundOutAboutYou" type="audio" orig-track-id="190" frozen="no" combine-ops="0">
+      <Region name="GinBlossoms-FoundOutAboutYou.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11203397" position="148082" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="243" type="audio" first-edit="nothing" source-0="177" source-1="179" master-source-0="177" master-source-1="179" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="244" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="245" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="246" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="247" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
   <Click>
@@ -146,16 +255,91 @@
     <Speaker azimuth="120" elevation="0" distance="1"/>
   </Speakers>
   <TempoMap>
-    <Tempo start="1|1|0" beats-per-minute="120.000000" note-type="4.000000" movable="no"/>
+    <Tempo start="1|1|0" beats-per-minute="136.000000" note-type="4.000000" movable="no"/>
     <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+    <Tempo start="2|1|0" beats-per-minute="136.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="5|2|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="9|2|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="10|4|0" beats-per-minute="134.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="18|3|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="23|1|0" beats-per-minute="134.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="26|3|0" beats-per-minute="134.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="34|4|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="42|3|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="50|3|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="58|2|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="66|3|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="72|2|0" beats-per-minute="134.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="74|4|0" beats-per-minute="134.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="76|3|0" beats-per-minute="134.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="86|2|0" beats-per-minute="134.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="91|1|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="94|1|0" beats-per-minute="134.740000" note-type="4.000000" movable="yes"/>
+    <Tempo start="98|4|0" beats-per-minute="134.740000" note-type="4.000000" movable="yes"/>
+    <Tempo start="106|4|0" beats-per-minute="134.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="109|2|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="113|4|0" beats-per-minute="134.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="122|2|0" beats-per-minute="134.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="126|1|0" beats-per-minute="126.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="126|2|0" beats-per-minute="72.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="126|4|0" beats-per-minute="40.000000" note-type="4.000000" movable="yes"/>
   </TempoMap>
   <ControlProtocols>
     <Protocol name="Mackie" active="no"/>
     <Protocol name="Generic MIDI" active="no"/>
     <Protocol name="Open Sound Control (OSC)" active="no"/>
-    <Protocol name="Faderport" active="no"/>
+    <Protocol name="PreSonus FaderPort" active="no"/>
   </ControlProtocols>
   <Extra>
+    <UI>
+      <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="rc-options-editor" visible="no" x-off="834" y-off="590" x-size="719" y-size="675"/>
+      <Window name="session-options-editor" visible="no" x-off="815" y-off="667" x-size="622" y-size="359"/>
+      <Window name="speaker-config" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-28-52" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-28-49" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-28-55" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-28-56" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-190-214" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-190-211" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-190-217" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-190-218" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <GUIObjectState>
+        <Object id="route 28" color="58981:33377:51300"/>
+        <Object id="rtav 28" height="64" visible="1"/>
+        <Object id="automation 51" height="64" visible="0"/>
+        <Object id="automation 54" height="64" visible="0"/>
+        <Object id="automation 28 10/0/0" height="64" visible="0"/>
+        <Object id="automation 38" height="64" visible="0"/>
+        <Object id="automation 42" height="64" visible="0"/>
+        <Object id="strip 28" visible="1" strip-width="Wide">
+          <Object id="processor 49"/>
+        </Object>
+        <Object id="route 190" color="45219:29490:58981"/>
+        <Object id="strip 190" visible="1">
+          <Object id="processor 211"/>
+        </Object>
+        <Object id="rtav 190" height="64" visible="1"/>
+        <Object id="automation 213" height="64" visible="0"/>
+        <Object id="automation 216" height="64" visible="0"/>
+        <Object id="automation 190 10/0/0" height="64" visible="0"/>
+        <Object id="automation 200" height="64" visible="0"/>
+        <Object id="automation 204" height="64" visible="0"/>
+        <Object id="automation 28 12/0/0" height="64" visible="0"/>
+        <Object id="automation 190 12/0/0" height="64" visible="0"/>
+      </GUIObjectState>
+    </UI>
     <Videomonitor active="no"/>
   </Extra>
 </Session>

@@ -5,6 +5,7 @@
 *.mp3
 *.bak
 *.history
+*.pending
 # Ignore autosave files
 *autosave*
 # Ignore peak directory

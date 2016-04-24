@@ -3,5 +3,9 @@
 # Ignore anything with these extensions:
 *.wav
 *.mp3
+*.bak
+*.history
 # Ignore autosave files
 *autosave*
+# Ignore peak directory
+*/peaks/*

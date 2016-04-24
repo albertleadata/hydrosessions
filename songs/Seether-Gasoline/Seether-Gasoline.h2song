@@ -2,7 +2,7 @@
 <song>
  <version>0.9.6.1</version>
  <bpm>86.6</bpm>
- <volume>0.481579</volume>
+ <volume>0.442105</volume>
  <metronomeVolume>0.5</metronomeVolume>
  <name>Untitled Song</name>
  <author>Unknown</author>
@@ -1971,7 +1971,8 @@
    <patternID>iAb</patternID>
   </group>
   <group>
-   <patternID>iAf2</patternID>
+   <patternID>iAf1</patternID>
+   <patternID>KickOn1</patternID>
   </group>
   <group>
    <patternID>iAb</patternID>

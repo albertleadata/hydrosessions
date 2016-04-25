@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="DrivinNCryin-FlyMeCourageous" sample-rate="48000" id-counter="2219" event-counter="2278">
+<Session version="3001" name="DrivinNCryin-FlyMeCourageous" sample-rate="48000" id-counter="3019" event-counter="3346">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -35,7 +35,7 @@
     <Option name="jack-time-master" value="1"/>
     <Option name="use-video-sync" value="0"/>
     <Option name="video-pullup" value="0"/>
-    <Option name="external-sync" value="0"/>
+    <Option name="external-sync" value="1"/>
     <Option name="insert-merge-policy" value="1"/>
     <Option name="timecode-offset" value="0"/>
     <Option name="timecode-offset-negative" value="1"/>
@@ -62,15 +62,36 @@
     <Option name="meterbridge-label-height" value="0"/>
   </Config>
   <Metadata/>
-  <Sources/>
-  <Regions/>
-  <Locations/>
+  <Sources>
+    <Source name="DrivinNCryin-FlyMeCourageous%L.wav" type="audio" flags="" id="2219" channel="0" origin=""/>
+    <Source name="DrivinNCryin-FlyMeCourageous%R.wav" type="audio" flags="" id="2221" channel="0" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="DrivinNCryin-FlyMeCourageous" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9776641" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2223" type="audio" first-edit="nothing" source-0="2219" source-1="2221" master-source-0="2219" master-source-1="2221" channels="2"/>
+  </Regions>
+  <Locations>
+    <Location id="2303" name="session" start="192918" end="10269925" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2435" name="AudioStart" start="437475" end="437475" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2596" name="Chorus01" start="2259558" end="2259558" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2603" name="Verse01" start="1360854" end="1360854" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2661" name="Verse02" start="3174028" end="3174028" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2689" name="Bridge01" start="4031984" end="4031984" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2831" name="GtrSolo" start="6058888" end="6058888" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2865" name="Verse03" start="6944124" end="6944124" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2896" name="Chorus03" start="7851184" end="7851184" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2903" name="Chorus02" start="5604676" end="5604676" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="3008" name="Outro" start="9166080" end="9166080" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+  </Locations>
   <Bundles/>
   <Routes>
     <Route id="2134" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Master" id="2157" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Master/audio_in 1"/>
-        <Port type="audio" name="Master/audio_in 2"/>
+        <Port type="audio" name="Master/audio_in 1">
+          <Connection other="DrivinNCryin-FlyMeCourageous/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_in 2">
+          <Connection other="DrivinNCryin-FlyMeCourageous/audio_out 2"/>
+        </Port>
       </IO>
       <IO name="Master" id="2158" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_out 1">
@@ -112,8 +133,93 @@
         </Pannable>
       </Processor>
     </Route>
+    <Route id="2232" name="DrivinNCryin-FlyMeCourageous" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="DrivinNCryin-FlyMeCourageous" id="2255" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrivinNCryin-FlyMeCourageous/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+        <Port type="audio" name="DrivinNCryin-FlyMeCourageous/audio_in 2">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="DrivinNCryin-FlyMeCourageous" id="2256" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrivinNCryin-FlyMeCourageous/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="DrivinNCryin-FlyMeCourageous/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="2234" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="2236" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="1"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="2246" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="2250" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="2248" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="2252" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="2254" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="2262" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="2261" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="2259" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="2258" flags="" value="0.047277830541"/>
+      </Processor>
+      <Processor id="2263" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
+      <Processor id="2264" name="DrivinNCryin-FlyMeCourageous" active="yes" user-latency="0" own-input="yes" own-output="no" output="DrivinNCryin-FlyMeCourageous" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="2246" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="2250" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="2248" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="2252" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="2254" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="2266" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="DrivinNCryin-FlyMeCourageous" name="DrivinNCryin-FlyMeCourageous" id="2270" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
   </Routes>
-  <Playlists/>
+  <Playlists>
+    <Playlist id="2271" name="DrivinNCryin-FlyMeCourageous" type="audio" orig-track-id="2232" frozen="no" combine-ops="0">
+      <Region name="DrivinNCryin-FlyMeCourageous.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9776641" position="437501" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2291" type="audio" first-edit="nothing" source-0="2219" source-1="2221" master-source-0="2219" master-source-1="2221" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="2292" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="2293" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="2294" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="2295" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
   <Click>
@@ -146,8 +252,65 @@
     <Speaker azimuth="120" elevation="0" distance="1"/>
   </Speakers>
   <TempoMap>
-    <Tempo start="1|1|0" beats-per-minute="120.000000" note-type="4.000000" movable="no"/>
+    <Tempo start="1|1|0" beats-per-minute="101.000000" note-type="4.000000" movable="no"/>
     <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+    <Tempo start="2|4|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="4|3|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="6|3|0" beats-per-minute="100.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="7|2|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="8|3|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="9|3|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="10|3|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="12|2|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="12|4|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="13|3|0" beats-per-minute="103.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="14|3|0" beats-per-minute="103.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="15|4|0" beats-per-minute="103.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="16|4|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="17|4|0" beats-per-minute="104.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="18|3|0" beats-per-minute="104.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="19|4|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="20|4|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="21|1|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="21|4|0" beats-per-minute="101.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="23|1|0" beats-per-minute="102.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="26|2|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="29|1|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="30|1|0" beats-per-minute="103.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="32|2|0" beats-per-minute="103.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="35|1|0" beats-per-minute="103.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="36|3|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="38|2|0" beats-per-minute="103.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="38|3|0" beats-per-minute="101.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="40|3|0" beats-per-minute="102.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="41|4|0" beats-per-minute="103.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="43|4|0" beats-per-minute="102.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="44|3|0" beats-per-minute="101.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="45|3|0" beats-per-minute="103.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="46|3|0" beats-per-minute="104.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="47|3|0" beats-per-minute="103.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="48|4|0" beats-per-minute="101.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="49|4|0" beats-per-minute="100.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="50|4|0" beats-per-minute="102.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="54|4|0" beats-per-minute="102.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="56|2|0" beats-per-minute="103.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="57|2|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="58|2|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="62|4|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="63|1|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="66|4|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="67|2|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="70|1|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="71|1|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="72|2|0" beats-per-minute="103.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="73|1|0" beats-per-minute="104.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="73|4|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="74|4|0" beats-per-minute="103.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="75|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="76|4|0" beats-per-minute="101.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="79|3|0" beats-per-minute="102.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="82|4|0" beats-per-minute="106.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="89|1|0" beats-per-minute="108.800000" note-type="4.000000" movable="yes"/>
   </TempoMap>
   <ControlProtocols>
     <Protocol name="Mackie" active="no"/>
@@ -156,6 +319,65 @@
     <Protocol name="PreSonus FaderPort" active="no"/>
   </ControlProtocols>
   <Extra>
+    <UI>
+      <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="rc-options-editor" visible="no" x-off="834" y-off="590" x-size="719" y-size="675"/>
+      <Window name="session-options-editor" visible="no" x-off="815" y-off="667" x-size="622" y-size="359"/>
+      <Window name="speaker-config" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-2134-2164" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-2134-2161" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-2134-2165" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-2134-2166" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-2232-2262" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-2232-2259" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-2232-2263" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-2232-2264" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <GUIObjectState>
+        <Object id="strip 28" visible="1" strip-width="Wide">
+          <Object id="processor 55"/>
+        </Object>
+        <Object id="strip 126" visible="1">
+          <Object id="processor 153"/>
+        </Object>
+        <Object id="strip 1545" visible="1" strip-width="Wide">
+          <Object id="processor 1572"/>
+        </Object>
+        <Object id="strip 1643" visible="1">
+          <Object id="processor 1670"/>
+        </Object>
+        <Object id="route 2134" color="58981:45710:29490"/>
+        <Object id="rtav 2134" height="64" visible="1"/>
+        <Object id="automation 2160" height="64" visible="0"/>
+        <Object id="automation 2163" height="64" visible="0"/>
+        <Object id="automation 2134 12/0/0" height="64" visible="0"/>
+        <Object id="automation 2148" height="64" visible="0"/>
+        <Object id="automation 2152" height="64" visible="0"/>
+        <Object id="strip 2134" visible="1" strip-width="Wide">
+          <Object id="processor 2161"/>
+        </Object>
+        <Object id="route 2232" color="58981:38337:29490"/>
+        <Object id="strip 2232" visible="1">
+          <Object id="processor 2259"/>
+        </Object>
+        <Object id="rtav 2232" height="64" visible="1"/>
+        <Object id="automation 2258" height="64" visible="0"/>
+        <Object id="automation 2261" height="64" visible="0"/>
+        <Object id="automation 2232 12/0/0" height="64" visible="0"/>
+        <Object id="automation 2246" height="64" visible="0"/>
+        <Object id="automation 2250" height="64" visible="0"/>
+      </GUIObjectState>
+    </UI>
     <Videomonitor active="no"/>
   </Extra>
 </Session>

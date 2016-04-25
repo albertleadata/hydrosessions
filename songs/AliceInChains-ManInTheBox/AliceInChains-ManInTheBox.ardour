@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="AliceInChains-ManInTheBox" sample-rate="48000" id-counter="113" event-counter="2">
+<Session version="3001" name="AliceInChains-ManInTheBox" sample-rate="48000" id-counter="1533" event-counter="1803">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -35,7 +35,7 @@
     <Option name="jack-time-master" value="1"/>
     <Option name="use-video-sync" value="0"/>
     <Option name="video-pullup" value="0"/>
-    <Option name="external-sync" value="0"/>
+    <Option name="external-sync" value="1"/>
     <Option name="insert-merge-policy" value="1"/>
     <Option name="timecode-offset" value="0"/>
     <Option name="timecode-offset-negative" value="1"/>
@@ -62,15 +62,37 @@
     <Option name="meterbridge-label-height" value="0"/>
   </Config>
   <Metadata/>
-  <Sources/>
-  <Regions/>
-  <Locations/>
+  <Sources>
+    <Source name="AliceInChains-ManInTheBox%L.wav" type="audio" flags="" id="113" channel="0" origin=""/>
+    <Source name="AliceInChains-ManInTheBox%R.wav" type="audio" flags="" id="115" channel="0" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="AliceInChains-ManInTheBox" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="13751276" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117" type="audio" first-edit="nothing" source-0="113" source-1="115" master-source-0="113" master-source-1="115" channels="2"/>
+  </Regions>
+  <Locations>
+    <Location id="196" name="session" start="100694" end="14275228" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="212" name="AudioStart" start="282663" end="282663" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="604" name="Verse01a" start="2061080" end="2061080" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="725" name="Verse01b" start="2951328" end="2951328" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="795" name="Chorus01" start="3806070" end="3806070" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="805" name="Intro02" start="5478316" end="5478316" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="929" name="Verse02a" start="6320934" end="6320934" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="945" name="Verse02b" start="7192996" end="7192996" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1099" name="Chorus02" start="8033076" end="8033076" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1172" name="GtrSolo" start="9707125" end="9707125" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1372" name="Chorus03" start="11389038" end="11389038" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1463" name="Outro" start="13020818" end="13020818" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+  </Locations>
   <Bundles/>
   <Routes>
     <Route id="28" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Master" id="51" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Master/audio_in 1"/>
-        <Port type="audio" name="Master/audio_in 2"/>
+        <Port type="audio" name="Master/audio_in 1">
+          <Connection other="AliceInChains-ManInTheBox/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_in 2">
+          <Connection other="AliceInChains-ManInTheBox/audio_out 2"/>
+        </Port>
       </IO>
       <IO name="Master" id="52" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_out 1">
@@ -112,8 +134,93 @@
         </Pannable>
       </Processor>
     </Route>
+    <Route id="126" name="AliceInChains-ManInTheBox" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="AliceInChains-ManInTheBox" id="149" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="AliceInChains-ManInTheBox/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+        <Port type="audio" name="AliceInChains-ManInTheBox/audio_in 2">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="AliceInChains-ManInTheBox" id="150" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="AliceInChains-ManInTheBox/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="AliceInChains-ManInTheBox/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="128" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="130" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="1"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="140" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="144" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="142" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="146" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="148" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="156" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="155" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="153" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="152" flags="" value="0.070212453604"/>
+      </Processor>
+      <Processor id="157" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
+      <Processor id="158" name="AliceInChains-ManInTheBox" active="yes" user-latency="0" own-input="yes" own-output="no" output="AliceInChains-ManInTheBox" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="140" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="144" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="142" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="146" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="148" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="160" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="AliceInChains-ManInTheBox" name="AliceInChains-ManInTheBox" id="164" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
   </Routes>
-  <Playlists/>
+  <Playlists>
+    <Playlist id="165" name="AliceInChains-ManInTheBox" type="audio" orig-track-id="126" frozen="no" combine-ops="0">
+      <Region name="AliceInChains-ManInTheBox.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="13751276" position="282714" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="185" type="audio" first-edit="nothing" source-0="113" source-1="115" master-source-0="113" master-source-1="115" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="186" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="187" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="188" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="189" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
   <Click>
@@ -146,8 +253,110 @@
     <Speaker azimuth="120" elevation="0" distance="1"/>
   </Speakers>
   <TempoMap>
-    <Tempo start="1|1|0" beats-per-minute="120.000000" note-type="4.000000" movable="no"/>
+    <Tempo start="1|1|0" beats-per-minute="104.000000" note-type="4.000000" movable="no"/>
     <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+    <Tempo start="2|1|0" beats-per-minute="104.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="4|1|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="5|1|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="6|1|0" beats-per-minute="105.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="7|2|0" beats-per-minute="106.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="8|1|0" beats-per-minute="106.100000" note-type="4.000000" movable="yes"/>
+    <Tempo start="8|4|0" beats-per-minute="105.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="9|3|0" beats-per-minute="105.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="10|1|0" beats-per-minute="105.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="11|4|0" beats-per-minute="105.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="12|3|0" beats-per-minute="105.300000" note-type="4.000000" movable="yes"/>
+    <Tempo start="13|2|0" beats-per-minute="105.240000" note-type="4.000000" movable="yes"/>
+    <Tempo start="14|3|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="18|2|0" beats-per-minute="105.360000" note-type="4.000000" movable="yes"/>
+    <Tempo start="18|4|0" beats-per-minute="105.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="19|2|0" beats-per-minute="107.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="19|4|0" beats-per-minute="107.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="20|3|0" beats-per-minute="105.900000" note-type="4.000000" movable="yes"/>
+    <Tempo start="21|2|0" beats-per-minute="105.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="22|1|0" beats-per-minute="105.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="22|4|0" beats-per-minute="104.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="27|4|0" beats-per-minute="108.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="29|2|0" beats-per-minute="108.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="30|1|0" beats-per-minute="110.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="31|4|0" beats-per-minute="109.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="32|4|0" beats-per-minute="108.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="33|3|0" beats-per-minute="107.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="34|2|0" beats-per-minute="106.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="35|4|0" beats-per-minute="106.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="36|2|0" beats-per-minute="108.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="37|1|0" beats-per-minute="109.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="37|4|0" beats-per-minute="110.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="38|3|0" beats-per-minute="111.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="39|3|0" beats-per-minute="110.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="41|4|0" beats-per-minute="111.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="43|4|0" beats-per-minute="111.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="44|3|0" beats-per-minute="110.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="46|1|0" beats-per-minute="111.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="49|2|0" beats-per-minute="111.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="50|1|0" beats-per-minute="112.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="50|3|0" beats-per-minute="114.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="51|4|0" beats-per-minute="112.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="52|2|0" beats-per-minute="111.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="53|1|0" beats-per-minute="108.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="53|3|0" beats-per-minute="105.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="54|3|0" beats-per-minute="104.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="56|1|0" beats-per-minute="105.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="59|4|0" beats-per-minute="105.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="62|2|0" beats-per-minute="105.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="63|3|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="65|4|0" beats-per-minute="106.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="67|2|0" beats-per-minute="108.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="67|4|0" beats-per-minute="109.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="68|3|0" beats-per-minute="109.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="69|2|0" beats-per-minute="110.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="70|2|0" beats-per-minute="111.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="72|3|0" beats-per-minute="108.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="74|2|0" beats-per-minute="108.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="75|4|0" beats-per-minute="108.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="76|3|0" beats-per-minute="108.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="78|1|0" beats-per-minute="109.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="78|4|0" beats-per-minute="112.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="80|2|0" beats-per-minute="112.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="81|3|0" beats-per-minute="112.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="82|4|0" beats-per-minute="111.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="84|1|0" beats-per-minute="110.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="85|3|0" beats-per-minute="112.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="90|2|0" beats-per-minute="112.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="91|1|0" beats-per-minute="114.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="92|1|0" beats-per-minute="112.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="92|2|0" beats-per-minute="110.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="92|4|0" beats-per-minute="108.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="93|3|0" beats-per-minute="107.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="94|2|0" beats-per-minute="106.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="96|4|0" beats-per-minute="106.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="97|4|0" beats-per-minute="107.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="98|3|0" beats-per-minute="108.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="99|3|0" beats-per-minute="109.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="100|2|0" beats-per-minute="110.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="101|1|0" beats-per-minute="111.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="102|1|0" beats-per-minute="112.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="103|4|0" beats-per-minute="114.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="104|2|0" beats-per-minute="112.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="104|4|0" beats-per-minute="110.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="105|4|0" beats-per-minute="108.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="107|1|0" beats-per-minute="110.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="107|4|0" beats-per-minute="110.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="108|3|0" beats-per-minute="110.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="109|4|0" beats-per-minute="110.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="111|1|0" beats-per-minute="110.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="112|3|0" beats-per-minute="111.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="113|4|0" beats-per-minute="111.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="115|1|0" beats-per-minute="111.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="116|4|0" beats-per-minute="112.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="119|1|0" beats-per-minute="112.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="123|1|0" beats-per-minute="112.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="123|4|0" beats-per-minute="111.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="124|3|0" beats-per-minute="110.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="125|1|0" beats-per-minute="109.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="125|4|0" beats-per-minute="108.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="126|3|0" beats-per-minute="107.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="127|4|0" beats-per-minute="106.000000" note-type="4.000000" movable="yes"/>
   </TempoMap>
   <ControlProtocols>
     <Protocol name="Mackie" active="no"/>
@@ -156,6 +365,53 @@
     <Protocol name="PreSonus FaderPort" active="no"/>
   </ControlProtocols>
   <Extra>
+    <UI>
+      <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="rc-options-editor" visible="no" x-off="834" y-off="590" x-size="719" y-size="675"/>
+      <Window name="session-options-editor" visible="no" x-off="815" y-off="667" x-size="622" y-size="359"/>
+      <Window name="speaker-config" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-28-58" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-28-55" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-28-59" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-28-60" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-126-156" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-126-153" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-126-157" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-126-158" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <GUIObjectState>
+        <Object id="route 28" color="36306:39707:58981"/>
+        <Object id="rtav 28" height="64" visible="1"/>
+        <Object id="automation 54" height="64" visible="0"/>
+        <Object id="automation 57" height="64" visible="0"/>
+        <Object id="automation 28 12/0/0" height="64" visible="0"/>
+        <Object id="automation 42" height="64" visible="0"/>
+        <Object id="automation 46" height="64" visible="0"/>
+        <Object id="strip 28" visible="1" strip-width="Wide">
+          <Object id="processor 55"/>
+        </Object>
+        <Object id="route 126" color="51084:58981:35291"/>
+        <Object id="strip 126" visible="1">
+          <Object id="processor 153"/>
+        </Object>
+        <Object id="rtav 126" height="64" visible="1"/>
+        <Object id="automation 152" height="64" visible="0"/>
+        <Object id="automation 155" height="64" visible="0"/>
+        <Object id="automation 126 12/0/0" height="64" visible="0"/>
+        <Object id="automation 140" height="64" visible="0"/>
+        <Object id="automation 144" height="64" visible="0"/>
+      </GUIObjectState>
+    </UI>
     <Videomonitor active="no"/>
   </Extra>
 </Session>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="UrgeOverkill-SisterHavana" sample-rate="48000" id-counter="1630" event-counter="1805">
+<Session version="3001" name="UrgeOverkill-SisterHavana" sample-rate="48000" id-counter="2122" event-counter="2275">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -35,7 +35,7 @@
     <Option name="jack-time-master" value="1"/>
     <Option name="use-video-sync" value="0"/>
     <Option name="video-pullup" value="0"/>
-    <Option name="external-sync" value="0"/>
+    <Option name="external-sync" value="1"/>
     <Option name="insert-merge-policy" value="1"/>
     <Option name="timecode-offset" value="0"/>
     <Option name="timecode-offset-negative" value="1"/>
@@ -62,15 +62,35 @@
     <Option name="meterbridge-label-height" value="0"/>
   </Config>
   <Metadata/>
-  <Sources/>
-  <Regions/>
-  <Locations/>
+  <Sources>
+    <Source name="UrgeOverkill-SisterHavana%L.wav" type="audio" flags="" id="1630" channel="0" origin=""/>
+    <Source name="UrgeOverkill-SisterHavana%R.wav" type="audio" flags="" id="1632" channel="0" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="UrgeOverkill-SisterHavana" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11114371" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1634" type="audio" first-edit="nothing" source-0="1630" source-1="1632" master-source-0="1630" master-source-1="1632" channels="2"/>
+  </Regions>
+  <Locations>
+    <Location id="1714" name="session" start="482295" end="11114370" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1812" name="Verse01" start="1352868" end="1352868" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1831" name="Chorus01" start="2684979" end="2684979" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1856" name="Verse02" start="3362634" end="3362634" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1962" name="Chorus02" start="4714281" end="4714281" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1978" name="Bridge01" start="5737479" end="5737479" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1991" name="GtrSolo" start="6400482" end="6400482" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2028" name="Bridge02" start="7078137" end="7078137" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2053" name="Chorus04" start="8424900" end="8424900" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="2111" name="AudioStart" start="0" end="0" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+  </Locations>
   <Bundles/>
   <Routes>
     <Route id="1545" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Master" id="1568" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Master/audio_in 1"/>
-        <Port type="audio" name="Master/audio_in 2"/>
+        <Port type="audio" name="Master/audio_in 1">
+          <Connection other="UrgeOverkill-SisterHavana/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_in 2">
+          <Connection other="UrgeOverkill-SisterHavana/audio_out 2"/>
+        </Port>
       </IO>
       <IO name="Master" id="1569" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_out 1">
@@ -112,8 +132,93 @@
         </Pannable>
       </Processor>
     </Route>
+    <Route id="1643" name="UrgeOverkill-SisterHavana" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="UrgeOverkill-SisterHavana" id="1666" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="UrgeOverkill-SisterHavana/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+        <Port type="audio" name="UrgeOverkill-SisterHavana/audio_in 2">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="UrgeOverkill-SisterHavana" id="1667" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="UrgeOverkill-SisterHavana/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="UrgeOverkill-SisterHavana/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="1645" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="1647" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="1"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="1657" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="1661" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="1659" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="1663" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="1665" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="1673" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1672" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="1670" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1669" flags="" value="0.099266164005"/>
+      </Processor>
+      <Processor id="1674" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
+      <Processor id="1675" name="UrgeOverkill-SisterHavana" active="yes" user-latency="0" own-input="yes" own-output="no" output="UrgeOverkill-SisterHavana" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="1657" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="1661" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="1659" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="1663" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="1665" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="1677" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="UrgeOverkill-SisterHavana" name="UrgeOverkill-SisterHavana" id="1681" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
   </Routes>
-  <Playlists/>
+  <Playlists>
+    <Playlist id="1682" name="UrgeOverkill-SisterHavana" type="audio" orig-track-id="1643" frozen="no" combine-ops="0">
+      <Region name="UrgeOverkill-SisterHavana.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11114371" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1702" type="audio" first-edit="nothing" source-0="1630" source-1="1632" master-source-0="1630" master-source-1="1632" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1703" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1704" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1705" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1706" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
   <Click>
@@ -146,8 +251,48 @@
     <Speaker azimuth="120" elevation="0" distance="1"/>
   </Speakers>
   <TempoMap>
-    <Tempo start="1|1|0" beats-per-minute="120.000000" note-type="4.000000" movable="no"/>
+    <Tempo start="1|1|0" beats-per-minute="23.000000" note-type="4.000000" movable="no"/>
     <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+    <Tempo start="1|4|0" beats-per-minute="23.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="2|1|0" beats-per-minute="134.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="4|1|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="6|3|0" beats-per-minute="136.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="8|1|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="11|4|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="14|2|0" beats-per-minute="137.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="16|1|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="19|4|0" beats-per-minute="137.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="21|3|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="27|3|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="28|3|0" beats-per-minute="137.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="30|2|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="35|3|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="36|1|0" beats-per-minute="136.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="39|3|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="42|2|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="44|3|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="47|3|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="50|1|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="51|1|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="51|4|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="58|3|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="61|1|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="63|4|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="64|3|0" beats-per-minute="136.900000" note-type="4.000000" movable="yes"/>
+    <Tempo start="66|2|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="67|4|0" beats-per-minute="136.900000" note-type="4.000000" movable="yes"/>
+    <Tempo start="69|2|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="71|1|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="72|1|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="76|3|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="79|3|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="85|1|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="93|4|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="94|4|0" beats-per-minute="136.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="96|1|0" beats-per-minute="137.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="97|1|0" beats-per-minute="136.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="107|4|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="110|4|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
   </TempoMap>
   <ControlProtocols>
     <Protocol name="Mackie" active="no"/>
@@ -156,6 +301,59 @@
     <Protocol name="PreSonus FaderPort" active="no"/>
   </ControlProtocols>
   <Extra>
+    <UI>
+      <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="rc-options-editor" visible="no" x-off="834" y-off="590" x-size="719" y-size="675"/>
+      <Window name="session-options-editor" visible="no" x-off="815" y-off="667" x-size="622" y-size="359"/>
+      <Window name="speaker-config" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1545-1575" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1545-1572" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1545-1576" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1545-1577" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1643-1673" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1643-1670" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1643-1674" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-1643-1675" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <GUIObjectState>
+        <Object id="strip 28" visible="1" strip-width="Wide">
+          <Object id="processor 55"/>
+        </Object>
+        <Object id="strip 126" visible="1">
+          <Object id="processor 153"/>
+        </Object>
+        <Object id="route 1545" color="58981:39321:29490"/>
+        <Object id="rtav 1545" height="64" visible="1"/>
+        <Object id="automation 1571" height="64" visible="0"/>
+        <Object id="automation 1574" height="64" visible="0"/>
+        <Object id="automation 1545 12/0/0" height="64" visible="0"/>
+        <Object id="automation 1559" height="64" visible="0"/>
+        <Object id="automation 1563" height="64" visible="0"/>
+        <Object id="strip 1545" visible="1" strip-width="Wide">
+          <Object id="processor 1572"/>
+        </Object>
+        <Object id="route 1643" color="45725:58981:30576"/>
+        <Object id="strip 1643" visible="1">
+          <Object id="processor 1670"/>
+        </Object>
+        <Object id="rtav 1643" height="64" visible="1"/>
+        <Object id="automation 1669" height="64" visible="0"/>
+        <Object id="automation 1672" height="64" visible="0"/>
+        <Object id="automation 1643 12/0/0" height="64" visible="0"/>
+        <Object id="automation 1657" height="64" visible="0"/>
+        <Object id="automation 1661" height="64" visible="0"/>
+      </GUIObjectState>
+    </UI>
     <Videomonitor active="no"/>
   </Extra>
 </Session>

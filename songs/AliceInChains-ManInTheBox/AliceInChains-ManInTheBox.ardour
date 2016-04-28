@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="AliceInChains-ManInTheBox" sample-rate="48000" id-counter="1533" event-counter="1803">
+<Session version="3001" name="AliceInChains-ManInTheBox" sample-rate="48000" id-counter="1892" event-counter="1819">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -65,12 +65,15 @@
   <Sources>
     <Source name="AliceInChains-ManInTheBox%L.wav" type="audio" flags="" id="113" channel="0" origin=""/>
     <Source name="AliceInChains-ManInTheBox%R.wav" type="audio" flags="" id="115" channel="0" origin=""/>
+    <Source name="DrumMachine-1%L.wav" type="audio" flags="" id="1848" captured-for="DrumMachine" channel="0" origin=""/>
+    <Source name="DrumMachine-1%R.wav" type="audio" flags="" id="1850" captured-for="DrumMachine" channel="0" origin=""/>
   </Sources>
   <Regions>
     <Region name="AliceInChains-ManInTheBox" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="13751276" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117" type="audio" first-edit="nothing" source-0="113" source-1="115" master-source-0="113" master-source-1="115" channels="2"/>
+    <Region name="DrumMachine-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="14028800" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1865" type="audio" first-edit="nothing" source-0="1848" source-1="1850" master-source-0="1848" master-source-1="1850" channels="2"/>
   </Regions>
   <Locations>
-    <Location id="196" name="session" start="100694" end="14275228" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="196" name="session" start="0" end="14275228" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
     <Location id="212" name="AudioStart" start="282663" end="282663" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="604" name="Verse01a" start="2061080" end="2061080" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="725" name="Verse01b" start="2951328" end="2951328" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -89,9 +92,11 @@
       <IO name="Master" id="51" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_in 1">
           <Connection other="AliceInChains-ManInTheBox/audio_out 1"/>
+          <Connection other="DrumMachine/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
           <Connection other="AliceInChains-ManInTheBox/audio_out 2"/>
+          <Connection other="DrumMachine/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Master" id="52" direction="Output" default-type="audio" user-latency="0">
@@ -136,12 +141,8 @@
     </Route>
     <Route id="126" name="AliceInChains-ManInTheBox" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
       <IO name="AliceInChains-ManInTheBox" id="149" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="AliceInChains-ManInTheBox/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-        <Port type="audio" name="AliceInChains-ManInTheBox/audio_in 2">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="AliceInChains-ManInTheBox/audio_in 1"/>
+        <Port type="audio" name="AliceInChains-ManInTheBox/audio_in 2"/>
       </IO>
       <IO name="AliceInChains-ManInTheBox" id="150" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="AliceInChains-ManInTheBox/audio_out 1">
@@ -185,6 +186,57 @@
       <Controllable name="recenable" id="160" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="AliceInChains-ManInTheBox" name="AliceInChains-ManInTheBox" id="164" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
     </Route>
+    <Route id="1806" name="DrumMachine" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="2" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="DrumMachine" id="1829" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_in 1">
+          <Connection other="Hydrogen:out_L"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_in 2">
+          <Connection other="Hydrogen:out_R"/>
+        </Port>
+      </IO>
+      <IO name="DrumMachine" id="1830" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="1808" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="1810" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="2"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="1820" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="1824" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="1822" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="1826" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="1828" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="1836" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1835" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="1833" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1832" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="1837" name="meter-DrumMachine" active="yes" user-latency="0" type="meter"/>
+      <Processor id="1838" name="DrumMachine" active="yes" user-latency="0" own-input="yes" own-output="no" output="DrumMachine" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="1820" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="1824" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="1822" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="1826" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="1828" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="1840" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="DrumMachine.1" name="DrumMachine" id="1844" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
   </Routes>
   <Playlists>
     <Playlist id="165" name="AliceInChains-ManInTheBox" type="audio" orig-track-id="126" frozen="no" combine-ops="0">
@@ -220,6 +272,39 @@
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="1845" name="DrumMachine.1" type="audio" orig-track-id="1806" frozen="no" combine-ops="0">
+      <Region name="DrumMachine-1.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="14028800" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1873" type="audio" first-edit="nothing" source-0="1848" source-1="1850" master-source-0="1848" master-source-1="1850" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1874" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1875" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1876" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1877" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
@@ -237,14 +322,14 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="22" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="1892" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in">
         <Connection other="system:capture_1"/>
       </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="23" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="1893" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -412,6 +497,30 @@
         <Object id="automation 144" height="64" visible="0"/>
       </GUIObjectState>
     </UI>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="196"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="false" channels="2">
+        <Channel number="1">
+          <Port name="DrumMachine/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="DrumMachine/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+      <ExportFilename>
+        <Folder relative="true" path="/export"/>
+        <Field name="label" enabled="false"/>
+        <Field name="session" enabled="true"/>
+        <Field name="timespan" enabled="true"/>
+        <Field name="revision" enabled="false"/>
+        <Field name="time" enabled="false" value="T_None"/>
+        <Field name="date" enabled="false" value="D_None"/>
+      </ExportFilename>
+    </ExportProfile>
     <Videomonitor active="no"/>
   </Extra>
 </Session>

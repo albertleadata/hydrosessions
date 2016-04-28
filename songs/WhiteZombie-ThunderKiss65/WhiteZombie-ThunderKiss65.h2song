@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
  <version>0.9.6.1</version>
- <bpm>110</bpm>
- <volume>0.197368</volume>
+ <bpm>114</bpm>
+ <volume>0.386842</volume>
  <metronomeVolume>0.5</metronomeVolume>
  <name>Untitled Song</name>
  <author>Unknown</author>
@@ -156,7 +156,7 @@
    <id>18</id>
    <name>Closed Hat</name>
    <drumkit>YamahaVintageKit</drumkit>
-   <volume>0.75</volume>
+   <volume>0.491379</volume>
    <isMuted>false</isMuted>
    <pan_L>0.96</pan_L>
    <pan_R>1</pan_R>
@@ -499,7 +499,7 @@
    <id>12</id>
    <name>Ride Jazz</name>
    <drumkit>GMkit</drumkit>
-   <volume>0.491379</volume>
+   <volume>0.400862</volume>
    <isMuted>false</isMuted>
    <pan_L>1</pan_L>
    <pan_R>1</pan_R>
@@ -542,7 +542,7 @@
    <id>14</id>
    <name>Ride Rock</name>
    <drumkit>GMkit</drumkit>
-   <volume>0.8</volume>
+   <volume>0.62069</volume>
    <isMuted>false</isMuted>
    <pan_L>0.58</pan_L>
    <pan_R>1</pan_R>
@@ -585,7 +585,7 @@
    <id>13</id>
    <name>Crash</name>
    <drumkit>GMkit</drumkit>
-   <volume>0.50431</volume>
+   <volume>0.465517</volume>
    <isMuted>false</isMuted>
    <pan_L>1</pan_L>
    <pan_R>0.88</pan_R>
@@ -3943,6 +3943,7 @@
   </group>
   <group>
    <patternID>vAa</patternID>
+   <patternID>CrashOn1</patternID>
   </group>
   <group>
    <patternID>fAa</patternID>

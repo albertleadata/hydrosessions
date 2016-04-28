@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="ACDC-ProblemChild" sample-rate="48000" id-counter="1335" event-counter="1871">
+<Session version="3001" name="ACDC-ProblemChild" sample-rate="48000" id-counter="1696" event-counter="1882">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -65,12 +65,15 @@
   <Sources>
     <Source name="ACDC-ProblemChild%L.wav" type="audio" flags="" id="192" channel="0" origin=""/>
     <Source name="ACDC-ProblemChild%R.wav" type="audio" flags="" id="194" channel="0" origin=""/>
+    <Source name="DrumMachine-1%L.wav" type="audio" flags="" id="1652" captured-for="DrumMachine" channel="0" origin=""/>
+    <Source name="DrumMachine-1%R.wav" type="audio" flags="" id="1654" captured-for="DrumMachine" channel="0" origin=""/>
   </Sources>
   <Regions>
     <Region name="ACDC-ProblemChild" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="16553601" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="196" type="audio" first-edit="nothing" source-0="192" source-1="194" master-source-0="192" master-source-1="194" channels="2"/>
+    <Region name="DrumMachine-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="16844928" position="124124" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1669" type="audio" first-edit="nothing" source-0="1652" source-1="1654" master-source-0="1652" master-source-1="1654" channels="2"/>
   </Regions>
   <Locations>
-    <Location id="275" name="session" start="124124" end="16939682" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="275" name="session" start="124124" end="16969051" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
     <Location id="301" name="Click" start="170702" end="170702" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="308" name="AudioStart" start="384866" end="384866" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="452" name="Verse01" start="1090560" end="1090560" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -91,9 +94,11 @@
       <IO name="Master" id="51" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_in 1">
           <Connection other="ACDC-ProblemChild/audio_out 1"/>
+          <Connection other="DrumMachine/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
           <Connection other="ACDC-ProblemChild/audio_out 2"/>
+          <Connection other="DrumMachine/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Master" id="52" direction="Output" default-type="audio" user-latency="0">
@@ -154,8 +159,8 @@
         </Port>
       </IO>
       <Controllable name="solo" id="207" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="209" flags="Toggle" value="0.000000000000"/>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Controllable name="mute" id="209" flags="Toggle" value="1.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="yes"/>
       <Automation/>
       <RemoteControl id="1"/>
       <Pannable>
@@ -187,8 +192,92 @@
       <Controllable name="recenable" id="239" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="ACDC-ProblemChild" name="ACDC-ProblemChild" id="243" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
     </Route>
+    <Route id="1610" name="DrumMachine" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterInput" meter-type="MeterPeak" order-key="2" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="DrumMachine" id="1633" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_in 1">
+          <Connection other="Hydrogen:out_L"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_in 2">
+          <Connection other="Hydrogen:out_R"/>
+        </Port>
+      </IO>
+      <IO name="DrumMachine" id="1634" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="1612" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="1614" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="2"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="1624" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="1628" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="1626" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="1630" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="1632" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="1640" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1639" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="1641" name="meter-DrumMachine" active="yes" user-latency="0" type="meter"/>
+      <Processor id="1637" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1636" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="1642" name="DrumMachine" active="yes" user-latency="0" own-input="yes" own-output="no" output="DrumMachine" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="1624" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="1628" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="1626" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="1630" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="1632" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="1644" flags="Toggle" value="1.000000000000"/>
+      <Diskstream flags="Recordable" playlist="DrumMachine.1" name="DrumMachine" id="1648" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
   </Routes>
   <Playlists>
+    <Playlist id="1649" name="DrumMachine.1" type="audio" orig-track-id="1610" frozen="no" combine-ops="0">
+      <Region name="DrumMachine-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="16844928" position="124124" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1677" type="audio" first-edit="nothing" source-0="1652" source-1="1654" master-source-0="1652" master-source-1="1654" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1678" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1679" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1680" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1681" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
     <Playlist id="244" name="ACDC-ProblemChild" type="audio" orig-track-id="205" frozen="no" combine-ops="0">
       <Region name="ACDC-ProblemChild.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="16553601" position="384922" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="264" type="audio" first-edit="nothing" source-0="192" source-1="194" master-source-0="192" master-source-1="194" channels="2">
         <Envelope default="yes"/>
@@ -239,14 +328,14 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="22" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="307" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in">
         <Connection other="system:capture_1"/>
       </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="23" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="308" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>

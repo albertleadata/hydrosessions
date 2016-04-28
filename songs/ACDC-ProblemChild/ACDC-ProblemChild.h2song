@@ -585,7 +585,7 @@
    <id>13</id>
    <name>Crash</name>
    <drumkit>GMkit</drumkit>
-   <volume>0.69</volume>
+   <volume>0.556035</volume>
    <isMuted>false</isMuted>
    <pan_L>1</pan_L>
    <pan_R>0.88</pan_R>

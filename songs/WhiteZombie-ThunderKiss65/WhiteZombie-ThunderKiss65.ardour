@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="WhiteZombie-ThunderKiss65" sample-rate="48000" id-counter="764" event-counter="662">
+<Session version="3001" name="WhiteZombie-ThunderKiss65" sample-rate="48000" id-counter="1193" event-counter="675">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -62,10 +62,18 @@
     <Option name="meterbridge-label-height" value="0"/>
   </Config>
   <Metadata/>
-  <Sources/>
-  <Regions/>
+  <Sources>
+    <Source name="WhiteZombie-ThunderKiss65%L.wav" type="audio" flags="" id="1009" channel="0" origin=""/>
+    <Source name="WhiteZombie-ThunderKiss65%R.wav" type="audio" flags="" id="1011" channel="0" origin=""/>
+    <Source name="DrumMachine-1%L.wav" type="audio" flags="" id="1137" captured-for="DrumMachine" channel="0" origin=""/>
+    <Source name="DrumMachine-1%R.wav" type="audio" flags="" id="1139" captured-for="DrumMachine" channel="0" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="WhiteZombie-ThunderKiss65" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11438081" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1013" type="audio" first-edit="nothing" source-0="1009" source-1="1011" master-source-0="1009" master-source-1="1011" channels="2"/>
+    <Region name="DrumMachine-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11656256" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1166" type="audio" first-edit="nothing" source-0="1137" source-1="1139" master-source-0="1137" master-source-1="1139" channels="2"/>
+  </Regions>
   <Locations>
-    <Location id="181" name="session" start="173100" end="12024313" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="181" name="session" start="0" end="12024313" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
     <Location id="407" name="Verse01" start="1262930" end="1262930" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="420" name="Chorus01" start="2083350" end="2083350" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="427" name="Verse02" start="2871470" end="2871470" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -81,9 +89,11 @@
     <Route id="28" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Master" id="47" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_in 1">
+          <Connection other="DrumMachine/audio_out 1"/>
           <Connection other="WhiteZombie-ThunderKiss65/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
+          <Connection other="DrumMachine/audio_out 2"/>
           <Connection other="WhiteZombie-ThunderKiss65/audio_out 2"/>
         </Port>
       </IO>
@@ -127,16 +137,12 @@
         </Pannable>
       </Processor>
     </Route>
-    <Route id="116" name="WhiteZombie-ThunderKiss65" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
-      <IO name="WhiteZombie-ThunderKiss65" id="135" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="WhiteZombie-ThunderKiss65/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-        <Port type="audio" name="WhiteZombie-ThunderKiss65/audio_in 2">
-          <Connection other="system:capture_2"/>
-        </Port>
+    <Route id="1022" name="WhiteZombie-ThunderKiss65" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="WhiteZombie-ThunderKiss65" id="1045" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="WhiteZombie-ThunderKiss65/audio_in 1"/>
+        <Port type="audio" name="WhiteZombie-ThunderKiss65/audio_in 2"/>
       </IO>
-      <IO name="WhiteZombie-ThunderKiss65" id="136" direction="Output" default-type="audio" user-latency="0">
+      <IO name="WhiteZombie-ThunderKiss65" id="1046" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="WhiteZombie-ThunderKiss65/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
@@ -144,43 +150,159 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <Controllable name="solo" id="118" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="120" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="solo" id="1024" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="1026" flags="Toggle" value="0.000000000000"/>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
       <Automation/>
       <RemoteControl id="1"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="126" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="130" flags="" value="1.000000000000"/>
-        <Controllable name="pan-elevation" id="128" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="132" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="134" flags="" value="0.000000000000"/>
+        <Controllable name="pan-azimuth" id="1036" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="1040" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="1038" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="1042" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="1044" flags="" value="0.000000000000"/>
         <Automation/>
       </Pannable>
-      <Processor id="140" name="Amp" active="yes" user-latency="0" type="trim">
-        <Controllable name="trimcontrol" id="142" flags="GainLike" value="1.000000000000"/>
+      <Processor id="1052" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1051" flags="" value="1.000000000000"/>
       </Processor>
-      <Processor id="137" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="139" flags="GainLike" value="1.000000000000"/>
+      <Processor id="1049" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1048" flags="" value="0.962756216526"/>
       </Processor>
-      <Processor id="143" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
-      <Processor id="144" name="WhiteZombie-ThunderKiss65" active="yes" user-latency="0" own-input="yes" own-output="no" output="WhiteZombie-ThunderKiss65" type="main-outs" role="Main">
+      <Processor id="1053" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
+      <Processor id="1054" name="WhiteZombie-ThunderKiss65" active="yes" user-latency="0" own-input="yes" own-output="no" output="WhiteZombie-ThunderKiss65" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="126" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="130" flags="" value="1.000000000000"/>
-          <Controllable name="pan-elevation" id="128" flags="" value="0.000000000000"/>
-          <Controllable name="pan-frontback" id="132" flags="" value="0.000000000000"/>
-          <Controllable name="pan-lfe" id="134" flags="" value="0.000000000000"/>
+          <Controllable name="pan-azimuth" id="1036" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="1040" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="1038" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="1042" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="1044" flags="" value="0.000000000000"/>
           <Automation/>
         </Pannable>
       </Processor>
-      <Controllable name="recenable" id="146" flags="Toggle" value="0.000000000000"/>
-      <Diskstream flags="Recordable" playlist="WhiteZombie-ThunderKiss65" name="WhiteZombie-ThunderKiss65" id="148" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+      <Controllable name="recenable" id="1056" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="WhiteZombie-ThunderKiss65" name="WhiteZombie-ThunderKiss65" id="1060" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
+    <Route id="1095" name="DrumMachine" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="2" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="DrumMachine" id="1118" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_in 1">
+          <Connection other="Hydrogen:out_L"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_in 2">
+          <Connection other="Hydrogen:out_R"/>
+        </Port>
+      </IO>
+      <IO name="DrumMachine" id="1119" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="1097" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="1099" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="2"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="1109" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="1113" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="1111" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="1115" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="1117" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="1125" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1124" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="1122" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1121" flags="" value="0.999999940395"/>
+      </Processor>
+      <Processor id="1126" name="meter-DrumMachine" active="yes" user-latency="0" type="meter"/>
+      <Processor id="1127" name="DrumMachine" active="yes" user-latency="0" own-input="yes" own-output="no" output="DrumMachine" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="1109" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="1113" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="1111" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="1115" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="1117" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="1129" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="DrumMachine.1" name="DrumMachine" id="1133" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
     </Route>
   </Routes>
   <Playlists>
-    <Playlist id="149" name="WhiteZombie-ThunderKiss65" type="audio" orig-track-id="116" frozen="no" combine-ops="0"/>
+    <Playlist id="1061" name="WhiteZombie-ThunderKiss65" type="audio" orig-track-id="1022" frozen="no" combine-ops="0">
+      <Region name="WhiteZombie-ThunderKiss65.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11438081" position="400550" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1081" type="audio" first-edit="nothing" source-0="1009" source-1="1011" master-source-0="1009" master-source-1="1011" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1082" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1083" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1084" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1085" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="1134" name="DrumMachine.1" type="audio" orig-track-id="1095" frozen="no" combine-ops="0">
+      <Region name="DrumMachine-1.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11656256" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1174" type="audio" first-edit="nothing" source-0="1137" source-1="1139" master-source-0="1137" master-source-1="1139" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1175" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1176" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1177" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1178" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
@@ -198,14 +320,14 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="22" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="3659" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in">
         <Connection other="system:capture_1"/>
       </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="23" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="3660" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -245,7 +367,7 @@
     <Protocol name="Mackie" active="no"/>
     <Protocol name="Generic MIDI" active="no"/>
     <Protocol name="Open Sound Control (OSC)" active="no"/>
-    <Protocol name="Faderport" active="no"/>
+    <Protocol name="PreSonus FaderPort" active="no"/>
   </ControlProtocols>
   <Extra>
     <UI>
@@ -295,6 +417,30 @@
         <Object id="automation 130" height="64" visible="0"/>
       </GUIObjectState>
     </UI>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="181"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="false" channels="2">
+        <Channel number="1">
+          <Port name="DrumMachine/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="DrumMachine/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+      <ExportFilename>
+        <Folder relative="true" path="/export"/>
+        <Field name="label" enabled="false"/>
+        <Field name="session" enabled="true"/>
+        <Field name="timespan" enabled="true"/>
+        <Field name="revision" enabled="false"/>
+        <Field name="time" enabled="false" value="T_None"/>
+        <Field name="date" enabled="false" value="D_None"/>
+      </ExportFilename>
+    </ExportProfile>
     <Videomonitor active="no"/>
   </Extra>
 </Session>

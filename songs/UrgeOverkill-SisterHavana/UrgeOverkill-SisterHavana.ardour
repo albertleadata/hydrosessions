@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="UrgeOverkill-SisterHavana" sample-rate="48000" id-counter="2122" event-counter="2275">
+<Session version="3001" name="UrgeOverkill-SisterHavana" sample-rate="48000" id-counter="2479" event-counter="2289">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -65,12 +65,15 @@
   <Sources>
     <Source name="UrgeOverkill-SisterHavana%L.wav" type="audio" flags="" id="1630" channel="0" origin=""/>
     <Source name="UrgeOverkill-SisterHavana%R.wav" type="audio" flags="" id="1632" channel="0" origin=""/>
+    <Source name="DrumMachine-1%L.wav" type="audio" flags="" id="2435" captured-for="DrumMachine" channel="0" origin=""/>
+    <Source name="DrumMachine-1%R.wav" type="audio" flags="" id="2437" captured-for="DrumMachine" channel="0" origin=""/>
   </Sources>
   <Regions>
     <Region name="UrgeOverkill-SisterHavana" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11114371" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1634" type="audio" first-edit="nothing" source-0="1630" source-1="1632" master-source-0="1630" master-source-1="1632" channels="2"/>
+    <Region name="DrumMachine-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11114752" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2452" type="audio" first-edit="nothing" source-0="2435" source-1="2437" master-source-0="2435" master-source-1="2437" channels="2"/>
   </Regions>
   <Locations>
-    <Location id="1714" name="session" start="482295" end="11114370" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="1714" name="session" start="0" end="11114751" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
     <Location id="1812" name="Verse01" start="1352868" end="1352868" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="1831" name="Chorus01" start="2684979" end="2684979" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="1856" name="Verse02" start="3362634" end="3362634" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -86,9 +89,11 @@
     <Route id="1545" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Master" id="1568" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_in 1">
+          <Connection other="DrumMachine/audio_out 1"/>
           <Connection other="UrgeOverkill-SisterHavana/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
+          <Connection other="DrumMachine/audio_out 2"/>
           <Connection other="UrgeOverkill-SisterHavana/audio_out 2"/>
         </Port>
       </IO>
@@ -134,12 +139,8 @@
     </Route>
     <Route id="1643" name="UrgeOverkill-SisterHavana" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
       <IO name="UrgeOverkill-SisterHavana" id="1666" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="UrgeOverkill-SisterHavana/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-        <Port type="audio" name="UrgeOverkill-SisterHavana/audio_in 2">
-          <Connection other="system:capture_2"/>
-        </Port>
+        <Port type="audio" name="UrgeOverkill-SisterHavana/audio_in 1"/>
+        <Port type="audio" name="UrgeOverkill-SisterHavana/audio_in 2"/>
       </IO>
       <IO name="UrgeOverkill-SisterHavana" id="1667" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="UrgeOverkill-SisterHavana/audio_out 1">
@@ -183,8 +184,92 @@
       <Controllable name="recenable" id="1677" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="UrgeOverkill-SisterHavana" name="UrgeOverkill-SisterHavana" id="1681" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
     </Route>
+    <Route id="2393" name="DrumMachine" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="2" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="DrumMachine" id="2416" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_in 1">
+          <Connection other="Hydrogen:out_L"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_in 2">
+          <Connection other="Hydrogen:out_R"/>
+        </Port>
+      </IO>
+      <IO name="DrumMachine" id="2417" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="2395" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="2397" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="2"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="2407" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="2411" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="2409" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="2413" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="2415" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="2423" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="2422" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="2420" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="2419" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="2424" name="meter-DrumMachine" active="yes" user-latency="0" type="meter"/>
+      <Processor id="2425" name="DrumMachine" active="yes" user-latency="0" own-input="yes" own-output="no" output="DrumMachine" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="2407" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="2411" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="2409" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="2413" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="2415" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="2427" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="DrumMachine.1" name="DrumMachine" id="2431" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
   </Routes>
   <Playlists>
+    <Playlist id="2432" name="DrumMachine.1" type="audio" orig-track-id="2393" frozen="no" combine-ops="0">
+      <Region name="DrumMachine-1.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11114752" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2460" type="audio" first-edit="nothing" source-0="2435" source-1="2437" master-source-0="2435" master-source-1="2437" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="2461" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="2462" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="2463" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="2464" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
     <Playlist id="1682" name="UrgeOverkill-SisterHavana" type="audio" orig-track-id="1643" frozen="no" combine-ops="0">
       <Region name="UrgeOverkill-SisterHavana.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11114371" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1702" type="audio" first-edit="nothing" source-0="1630" source-1="1632" master-source-0="1630" master-source-1="1632" channels="2">
         <Envelope default="yes"/>
@@ -235,14 +320,14 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="1539" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="3403" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in">
         <Connection other="system:capture_1"/>
       </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="1540" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="3404" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -354,6 +439,30 @@
         <Object id="automation 1661" height="64" visible="0"/>
       </GUIObjectState>
     </UI>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="1714"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="false" channels="2">
+        <Channel number="1">
+          <Port name="DrumMachine/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="DrumMachine/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+      <ExportFilename>
+        <Folder relative="true" path="/export"/>
+        <Field name="label" enabled="false"/>
+        <Field name="session" enabled="true"/>
+        <Field name="timespan" enabled="true"/>
+        <Field name="revision" enabled="false"/>
+        <Field name="time" enabled="false" value="T_None"/>
+        <Field name="date" enabled="false" value="D_None"/>
+      </ExportFilename>
+    </ExportProfile>
     <Videomonitor active="no"/>
   </Extra>
 </Session>

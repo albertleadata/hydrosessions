@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="RickSpringfield-JessiesGirl" sample-rate="48000" id-counter="1124" event-counter="1006">
+<Session version="3001" name="RickSpringfield-JessiesGirl" sample-rate="48000" id-counter="1554" event-counter="1024">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -62,10 +62,18 @@
     <Option name="meterbridge-label-height" value="0"/>
   </Config>
   <Metadata/>
-  <Sources/>
-  <Regions/>
+  <Sources>
+    <Source name="RickSpringfield-JessiesGirl%L.wav" type="audio" flags="" id="1370" channel="0" origin=""/>
+    <Source name="RickSpringfield-JessiesGirl%R.wav" type="audio" flags="" id="1372" channel="0" origin=""/>
+    <Source name="DrumMachine-1%L.wav" type="audio" flags="" id="1498" captured-for="DrumMachine" channel="0" origin=""/>
+    <Source name="DrumMachine-1%R.wav" type="audio" flags="" id="1500" captured-for="DrumMachine" channel="0" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="RickSpringfield-JessiesGirl" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9323834" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1374" type="audio" first-edit="nothing" source-0="1370" source-1="1372" master-source-0="1370" master-source-1="1372" channels="2"/>
+    <Region name="DrumMachine-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9559680" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1527" type="audio" first-edit="nothing" source-0="1498" source-1="1500" master-source-0="1498" master-source-1="1500" channels="2"/>
+  </Regions>
   <Locations>
-    <Location id="181" name="session" start="160126" end="9680344" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="181" name="session" start="0" end="9680344" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
     <Location id="366" name="Verse01" start="689819" end="689819" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="373" name="Verse01b" start="1396573" end="1396573" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="380" name="Chorus01" start="2009620" end="2009620" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -82,9 +90,11 @@
     <Route id="28" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Master" id="47" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_in 1">
+          <Connection other="DrumMachine/audio_out 1"/>
           <Connection other="RickSpringfield-JessiesGirl/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
+          <Connection other="DrumMachine/audio_out 2"/>
           <Connection other="RickSpringfield-JessiesGirl/audio_out 2"/>
         </Port>
       </IO>
@@ -128,8 +138,8 @@
         </Pannable>
       </Processor>
     </Route>
-    <Route id="116" name="RickSpringfield-JessiesGirl" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
-      <IO name="RickSpringfield-JessiesGirl" id="135" direction="Input" default-type="audio" user-latency="0">
+    <Route id="1383" name="RickSpringfield-JessiesGirl" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="RickSpringfield-JessiesGirl" id="1406" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="RickSpringfield-JessiesGirl/audio_in 1">
           <Connection other="system:capture_1"/>
         </Port>
@@ -137,7 +147,7 @@
           <Connection other="system:capture_2"/>
         </Port>
       </IO>
-      <IO name="RickSpringfield-JessiesGirl" id="136" direction="Output" default-type="audio" user-latency="0">
+      <IO name="RickSpringfield-JessiesGirl" id="1407" direction="Output" default-type="audio" user-latency="0">
         <Port type="audio" name="RickSpringfield-JessiesGirl/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
@@ -145,43 +155,159 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <Controllable name="solo" id="118" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="120" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="solo" id="1385" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="1387" flags="Toggle" value="0.000000000000"/>
       <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
       <Automation/>
       <RemoteControl id="1"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="126" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="130" flags="" value="1.000000000000"/>
-        <Controllable name="pan-elevation" id="128" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="132" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="134" flags="" value="0.000000000000"/>
+        <Controllable name="pan-azimuth" id="1397" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="1401" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="1399" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="1403" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="1405" flags="" value="0.000000000000"/>
         <Automation/>
       </Pannable>
-      <Processor id="140" name="Amp" active="yes" user-latency="0" type="trim">
-        <Controllable name="trimcontrol" id="142" flags="GainLike" value="1.000000000000"/>
+      <Processor id="1413" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1412" flags="" value="1.000000000000"/>
       </Processor>
-      <Processor id="137" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="139" flags="GainLike" value="0.116309061646"/>
+      <Processor id="1410" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1409" flags="" value="0.155878484249"/>
       </Processor>
-      <Processor id="143" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
-      <Processor id="144" name="RickSpringfield-JessiesGirl" active="yes" user-latency="0" own-input="yes" own-output="no" output="RickSpringfield-JessiesGirl" type="main-outs" role="Main">
+      <Processor id="1414" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
+      <Processor id="1415" name="RickSpringfield-JessiesGirl" active="yes" user-latency="0" own-input="yes" own-output="no" output="RickSpringfield-JessiesGirl" type="main-outs" role="Main">
         <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="126" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="130" flags="" value="1.000000000000"/>
-          <Controllable name="pan-elevation" id="128" flags="" value="0.000000000000"/>
-          <Controllable name="pan-frontback" id="132" flags="" value="0.000000000000"/>
-          <Controllable name="pan-lfe" id="134" flags="" value="0.000000000000"/>
+          <Controllable name="pan-azimuth" id="1397" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="1401" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="1399" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="1403" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="1405" flags="" value="0.000000000000"/>
           <Automation/>
         </Pannable>
       </Processor>
-      <Controllable name="recenable" id="146" flags="Toggle" value="0.000000000000"/>
-      <Diskstream flags="Recordable" playlist="RickSpringfield-JessiesGirl" name="RickSpringfield-JessiesGirl" id="148" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+      <Controllable name="recenable" id="1417" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="RickSpringfield-JessiesGirl" name="RickSpringfield-JessiesGirl" id="1421" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
+    <Route id="1456" name="DrumMachine" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="2" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="DrumMachine" id="1479" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_in 1">
+          <Connection other="Hydrogen:out_L"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_in 2">
+          <Connection other="Hydrogen:out_R"/>
+        </Port>
+      </IO>
+      <IO name="DrumMachine" id="1480" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="1458" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="1460" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="2"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="1470" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="1474" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="1472" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="1476" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="1478" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="1486" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="1485" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="1483" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="1482" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="1487" name="meter-DrumMachine" active="yes" user-latency="0" type="meter"/>
+      <Processor id="1488" name="DrumMachine" active="yes" user-latency="0" own-input="yes" own-output="no" output="DrumMachine" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="1470" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="1474" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="1472" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="1476" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="1478" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="1490" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="DrumMachine.1" name="DrumMachine" id="1494" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
     </Route>
   </Routes>
   <Playlists>
-    <Playlist id="149" name="RickSpringfield-JessiesGirl" type="audio" orig-track-id="116" frozen="no" combine-ops="0"/>
+    <Playlist id="1495" name="DrumMachine.1" type="audio" orig-track-id="1456" frozen="no" combine-ops="0">
+      <Region name="DrumMachine-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9559680" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1535" type="audio" first-edit="nothing" source-0="1498" source-1="1500" master-source-0="1498" master-source-1="1500" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1536" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1537" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1538" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1539" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="1422" name="RickSpringfield-JessiesGirl" type="audio" orig-track-id="1383" frozen="no" combine-ops="0">
+      <Region name="RickSpringfield-JessiesGirl.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="9323834" position="341123" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1442" type="audio" first-edit="nothing" source-0="1370" source-1="1372" master-source-0="1370" master-source-1="1372" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1443" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1444" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1445" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1446" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
@@ -199,14 +325,14 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="22" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="1838" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in">
         <Connection other="system:capture_1"/>
       </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="23" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="1839" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -251,7 +377,7 @@
     <Protocol name="Mackie" active="no"/>
     <Protocol name="Generic MIDI" active="no"/>
     <Protocol name="Open Sound Control (OSC)" active="no"/>
-    <Protocol name="Faderport" active="no"/>
+    <Protocol name="PreSonus FaderPort" active="no"/>
   </ControlProtocols>
   <Extra>
     <UI>

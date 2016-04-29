@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
-  <Mixer narrow-strips="no" show-mixer="yes" show-mixer-list="yes" maximised="no">
-    <geometry x-size="1546" y-size="755" x-pos="1010" y-pos="33" x-off="0" y-off="0" mixer-rhs-pane1-pos="162" mixer-rhs-pane2-pos="504" mixer-list-hpane-pos="130"/>
-    <PluginOrder/>
-  </Mixer>
-  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="1713" snap-to="SnapToBeat" snap-mode="SnapOff" internal-snap-to="SnapToBeat" internal-snap-mode="SnapOff" pre-internal-snap-to="SnapToBeat" pre-internal-snap-mode="SnapOff" edit-point="EditAtMouse" visible-track-count="-1" playhead="8280642" left-frame="7542339" y-origin="0.000000" show-measures="no" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="no" show-editor-list="no" editor-list-page="0" show-marker-lines="no" nudge-clock-value="240000">
+  <LastUsedSnapshot name="SevenMaryThree-Cumbersome"/>
+  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="1307" snap-to="SnapToBeat" snap-mode="SnapOff" internal-snap-to="SnapToBeat" internal-snap-mode="SnapOff" pre-internal-snap-to="SnapToBeat" pre-internal-snap-mode="SnapOff" edit-point="EditAtMouse" visible-track-count="-1" playhead="8280642" left-frame="0" y-origin="0.000000" show-measures="no" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="no" show-editor-list="no" editor-list-page="0" show-marker-lines="no" nudge-clock-value="240000">
     <geometry x-size="1546" y-size="609" x-pos="1010" y-pos="811" edit-horizontal-pane-pos="462" notebook-shrunk="0" edit-vertical-pane-pos="392"/>
     <Buttons>
       <Press/>
@@ -12,8 +9,15 @@
     </Buttons>
     <Selection>
       <Region id="4110"/>
-      <Marker id="4586" start="yes"/>
+      <Marker id="4976" start="yes"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
   </Editor>
+  <Mixer narrow-strips="no" show-mixer="yes" show-mixer-list="yes" maximised="no">
+    <geometry x-size="1546" y-size="755" x-pos="1010" y-pos="33" x-off="0" y-off="0" mixer-rhs-pane1-pos="162" mixer-rhs-pane2-pos="504" mixer-list-hpane-pos="130"/>
+    <PluginOrder/>
+  </Mixer>
+  <Meterbridge show-meterbridge="no">
+    <geometry x-size="600" y-size="400" x-pos="1" y-pos="1"/>
+  </Meterbridge>
 </instant>

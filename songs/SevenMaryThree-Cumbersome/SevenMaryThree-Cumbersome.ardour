@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="SevenMaryThree-Cumbersome" sample-rate="48000" id-counter="4631" event-counter="3637">
+<Session version="3001" name="SevenMaryThree-Cumbersome" sample-rate="48000" id-counter="4995" event-counter="3642">
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -83,6 +83,7 @@
     <Location id="4504" name="Chorus02" start="9211968" end="9211968" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="4553" name="Transition01" start="6810012" end="6810012" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
     <Location id="4586" name="Transition02" start="10308456" end="10308456" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="4976" name="AudioStart" start="503352" end="503352" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <Routes>
@@ -237,39 +238,6 @@
     </Route>
   </Routes>
   <Playlists>
-    <Playlist id="4090" name="SevenMaryThree-Cumbersome" type="audio" orig-track-id="4051" frozen="no" combine-ops="0">
-      <Region name="SevenMaryThree-Cumbersome.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11274919" position="503391" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4110" type="audio" first-edit="nothing" source-0="4038" source-1="4040" master-source-0="4038" master-source-1="4040" channels="2">
-        <Envelope default="yes"/>
-        <FadeIn>
-          <AutomationList automation-id="fadein" id="4111" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
-            <events>0 1.0000000116861e-07
-64 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="4112" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
-            <events>0 1
-64 1.0000000116861e-07
-</events>
-          </AutomationList>
-        </InverseFadeIn>
-        <FadeOut>
-          <AutomationList automation-id="fadeout" id="4113" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
-            <events>0 1
-64 1.0000000116861e-07
-</events>
-          </AutomationList>
-        </FadeOut>
-        <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="4114" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
-            <events>0 1.0000000116861e-07
-64 1
-</events>
-          </AutomationList>
-        </InverseFadeOut>
-      </Region>
-    </Playlist>
     <Playlist id="4170" name="DrumMachine.1" type="audio" orig-track-id="4131" frozen="no" combine-ops="0">
       <Region name="DrumMachine-1.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11691904" position="228876" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4612" type="audio" first-edit="nothing" source-0="4173" source-1="4175" master-source-0="4173" master-source-1="4175" channels="2">
         <Envelope default="yes"/>
@@ -303,6 +271,39 @@
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="4090" name="SevenMaryThree-Cumbersome" type="audio" orig-track-id="4051" frozen="no" combine-ops="0">
+      <Region name="SevenMaryThree-Cumbersome.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="11274919" position="503391" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4110" type="audio" first-edit="nothing" source-0="4038" source-1="4040" master-source-0="4038" master-source-1="4040" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="4111" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="4112" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="4113" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="4114" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
@@ -320,14 +321,14 @@
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="3947" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="4637" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in">
         <Connection other="system:capture_1"/>
       </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="3948" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="4638" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -396,6 +397,105 @@
         <Field name="date" enabled="false" value="D_None"/>
       </ExportFilename>
     </ExportProfile>
+    <UI>
+      <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="rc-options-editor" visible="no" x-off="834" y-off="590" x-size="719" y-size="675"/>
+      <Window name="session-options-editor" visible="no" x-off="815" y-off="667" x-size="622" y-size="359"/>
+      <Window name="speaker-config" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-3953-3983" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-3953-3980" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-3953-3984" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-3953-3985" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4051-4081" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4051-4078" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4051-4082" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4051-4083" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4131-4161" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4131-4158" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4131-4162" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4131-4163" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <GUIObjectState>
+        <Object id="automation 28 10/0/0" height="62" visible="0"/>
+        <Object id="strip 28" visible="1" strip-width="Wide">
+          <Object id="processor 49"/>
+        </Object>
+        <Object id="route 116" color="58981:37389:31991"/>
+        <Object id="rtav 116" height="62" visible="1"/>
+        <Object id="automation 139" height="62" visible="0"/>
+        <Object id="automation 142" height="62" visible="0"/>
+        <Object id="automation 116 10/0/0" height="62" visible="0"/>
+        <Object id="automation 126" height="62" visible="0"/>
+        <Object id="automation 130" height="62" visible="0"/>
+        <Object id="strip 116" visible="1">
+          <Object id="processor 137"/>
+        </Object>
+        <Object id="strip 1705" visible="1" strip-width="Wide">
+          <Object id="processor 1732"/>
+        </Object>
+        <Object id="strip 1120" visible="1" strip-width="Wide">
+          <Object id="processor 1147"/>
+        </Object>
+        <Object id="strip 2251" visible="1" strip-width="Wide">
+          <Object id="processor 2278"/>
+        </Object>
+        <Object id="strip 2349" visible="1" strip-width="Wide">
+          <Object id="processor 2376"/>
+        </Object>
+        <Object id="strip 2423" visible="1" strip-width="Wide">
+          <Object id="processor 2450"/>
+        </Object>
+        <Object id="strip 3133" visible="1" strip-width="Wide">
+          <Object id="processor 3160"/>
+        </Object>
+        <Object id="strip 3231" visible="1" strip-width="Wide">
+          <Object id="processor 3258"/>
+        </Object>
+        <Object id="strip 3305" visible="1" strip-width="Wide">
+          <Object id="processor 3332"/>
+        </Object>
+        <Object id="strip 3953" visible="1" strip-width="Wide">
+          <Object id="processor 3980"/>
+        </Object>
+        <Object id="strip 4051" visible="1" strip-width="Wide">
+          <Object id="processor 4078"/>
+        </Object>
+        <Object id="strip 4131" visible="1" strip-width="Wide">
+          <Object id="processor 4158"/>
+        </Object>
+        <Object id="route 3953" color="52998:40086:58981"/>
+        <Object id="rtav 3953" height="64" visible="1"/>
+        <Object id="automation 3979" height="64" visible="0"/>
+        <Object id="automation 3982" height="64" visible="0"/>
+        <Object id="automation 3953 12/0/0" height="64" visible="0"/>
+        <Object id="automation 3967" height="64" visible="0"/>
+        <Object id="automation 3971" height="64" visible="0"/>
+        <Object id="route 4051" color="29490:35388:58981"/>
+        <Object id="rtav 4051" height="64" visible="1"/>
+        <Object id="automation 4077" height="64" visible="0"/>
+        <Object id="automation 4080" height="64" visible="0"/>
+        <Object id="automation 4051 12/0/0" height="64" visible="0"/>
+        <Object id="automation 4065" height="64" visible="0"/>
+        <Object id="automation 4069" height="64" visible="0"/>
+        <Object id="route 4131" color="29490:48168:58981"/>
+        <Object id="rtav 4131" height="64" visible="1"/>
+        <Object id="automation 4157" height="64" visible="0"/>
+        <Object id="automation 4160" height="64" visible="0"/>
+        <Object id="automation 4131 12/0/0" height="64" visible="0"/>
+        <Object id="automation 4145" height="64" visible="0"/>
+        <Object id="automation 4149" height="64" visible="0"/>
+      </GUIObjectState>
+    </UI>
     <Videomonitor active="no"/>
   </Extra>
 </Session>

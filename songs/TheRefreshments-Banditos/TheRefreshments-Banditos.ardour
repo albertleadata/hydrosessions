@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session version="3001" name="TheRefreshments-Banditos" sample-rate="48000" id-counter="5862" event-counter="4703">
+  <MIDIPorts>
+    <Port name="MIDI Clock in" direction="input"/>
+    <Port name="MIDI Clock out" direction="output"/>
+    <Port name="MIDI control in" direction="input"/>
+    <Port name="MIDI control out" direction="output"/>
+    <Port name="MMC in" direction="input"/>
+    <Port name="MMC out" direction="output"/>
+    <Port name="MTC in" direction="input"/>
+    <Port name="MTC out" direction="output"/>
+    <Port name="Scene in" direction="input"/>
+    <Port name="Scene out" direction="output"/>
+  </MIDIPorts>
+  <Config>
+    <Option name="destructive-xfade-msecs" value="2"/>
+    <Option name="use-region-fades" value="1"/>
+    <Option name="use-transport-fades" value="1"/>
+    <Option name="use-monitor-fades" value="1"/>
+    <Option name="native-file-data-format" value="0"/>
+    <Option name="native-file-header-format" value="1"/>
+    <Option name="auto-play" value="0"/>
+    <Option name="auto-return" value="0"/>
+    <Option name="auto-input" value="1"/>
+    <Option name="punch-in" value="0"/>
+    <Option name="punch-out" value="0"/>
+    <Option name="subframes-per-frame" value="100"/>
+    <Option name="timecode-format" value="8"/>
+    <Option name="raid-path" value=""/>
+    <Option name="audio-search-path" value=""/>
+    <Option name="midi-search-path" value=""/>
+    <Option name="track-name-number" value="0"/>
+    <Option name="track-name-take" value="0"/>
+    <Option name="take-name" value="Take1"/>
+    <Option name="jack-time-master" value="1"/>
+    <Option name="use-video-sync" value="0"/>
+    <Option name="video-pullup" value="0"/>
+    <Option name="external-sync" value="1"/>
+    <Option name="insert-merge-policy" value="1"/>
+    <Option name="timecode-offset" value="0"/>
+    <Option name="timecode-offset-negative" value="1"/>
+    <Option name="slave-timecode-offset" value=" 00:00:00:00"/>
+    <Option name="timecode-generator-offset" value=" 00:00:00:00"/>
+    <Option name="glue-new-markers-to-bars-and-beats" value="0"/>
+    <Option name="midi-copy-is-fork" value="0"/>
+    <Option name="glue-new-regions-to-bars-and-beats" value="0"/>
+    <Option name="wave-amplitude-zoom" value="0"/>
+    <Option name="wave-zoom-factor" value="2"/>
+    <Option name="show-summary" value="1"/>
+    <Option name="show-group-tabs" value="1"/>
+    <Option name="show-region-fades" value="1"/>
+    <Option name="use-video-file-fps" value="0"/>
+    <Option name="videotimeline-pullup" value="1"/>
+    <Option name="show-busses-on-meterbridge" value="0"/>
+    <Option name="show-master-on-meterbridge" value="1"/>
+    <Option name="show-midi-on-meterbridge" value="1"/>
+    <Option name="show-rec-on-meterbridge" value="1"/>
+    <Option name="show-mute-on-meterbridge" value="0"/>
+    <Option name="show-solo-on-meterbridge" value="0"/>
+    <Option name="show-monitor-on-meterbridge" value="0"/>
+    <Option name="show-name-on-meterbridge" value="1"/>
+    <Option name="meterbridge-label-height" value="0"/>
+  </Config>
+  <Metadata/>
+  <Sources>
+    <Source name="TheRefreshments-Banditos%L.wav" type="audio" flags="" id="5092" channel="0" origin=""/>
+    <Source name="TheRefreshments-Banditos%R.wav" type="audio" flags="" id="5094" channel="0" origin=""/>
+    <Source name="DrumMachine-1%L.wav" type="audio" flags="" id="5221" captured-for="DrumMachine" channel="0" origin=""/>
+    <Source name="DrumMachine-1%R.wav" type="audio" flags="" id="5223" captured-for="DrumMachine" channel="0" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="TheRefreshments-Banditos" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="13728706" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5096" type="audio" first-edit="nothing" source-0="5092" source-1="5094" master-source-0="5092" master-source-1="5094" channels="2"/>
+    <Region name="DrumMachine-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="12716416" position="983940" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5835" type="audio" first-edit="nothing" source-0="5221" source-1="5223" master-source-0="5221" master-source-1="5223" channels="2"/>
+  </Regions>
+  <Locations>
+    <Location id="5176" name="session" start="983940" end="13896974" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5354" name="Intro02" start="1910840" end="1910840" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5361" name="Intro01" start="1286252" end="1286252" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5374" name="AudioStart" start="0" end="0" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5421" name="PreChorus01" start="3211352" end="3211352" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5453" name="Chorus01" start="3824532" end="3824532" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5476" name="Intro03" start="5085116" end="5085116" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5598" name="PreChorus02" start="6240176" end="6240176" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5605" name="Verse02" start="5618440" end="5618440" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5668" name="Chorus02" start="6890432" end="6890432" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5714" name="GtrSolo" start="8045492" end="8045492" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5727" name="PreChorus04" start="9283260" end="9283260" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5782" name="Chorus04" start="9967740" end="9967740" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="5798" name="Outro" start="11108540" end="11108540" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+  </Locations>
+  <Bundles/>
+  <Routes>
+    <Route id="5007" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
+      <IO name="Master" id="5030" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Master/audio_in 1">
+          <Connection other="DrumMachine/audio_out 1"/>
+          <Connection other="TheRefreshments-Banditos/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_in 2">
+          <Connection other="DrumMachine/audio_out 2"/>
+          <Connection other="TheRefreshments-Banditos/audio_out 2"/>
+        </Port>
+      </IO>
+      <IO name="Master" id="5031" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Master/audio_out 1">
+          <Connection other="system:playback_1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_out 2">
+          <Connection other="system:playback_2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="5009" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="5011" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="5021" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="5025" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="5023" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="5027" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="5029" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="5037" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="5036" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="5034" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="5033" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="5038" name="meter-Master" active="yes" user-latency="0" type="meter"/>
+      <Processor id="5039" name="Master" active="yes" user-latency="0" own-input="yes" own-output="no" output="Master" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="5021" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="5025" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="5023" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="5027" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="5029" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+    </Route>
+    <Route id="5105" name="TheRefreshments-Banditos" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="TheRefreshments-Banditos" id="5128" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="TheRefreshments-Banditos/audio_in 1"/>
+        <Port type="audio" name="TheRefreshments-Banditos/audio_in 2"/>
+      </IO>
+      <IO name="TheRefreshments-Banditos" id="5129" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="TheRefreshments-Banditos/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="TheRefreshments-Banditos/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="5107" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="5109" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="1"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="5119" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="5123" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="5121" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="5125" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="5127" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="5135" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="5134" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="5132" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="5131" flags="" value="0.083930395544"/>
+      </Processor>
+      <Processor id="5136" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
+      <Processor id="5137" name="TheRefreshments-Banditos" active="yes" user-latency="0" own-input="yes" own-output="no" output="TheRefreshments-Banditos" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="5119" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="5123" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="5121" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="5125" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="5127" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="5139" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="TheRefreshments-Banditos" name="TheRefreshments-Banditos" id="5143" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
+    <Route id="5179" name="DrumMachine" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="2" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="DrumMachine" id="5202" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_in 1">
+          <Connection other="Hydrogen:out_L"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_in 2">
+          <Connection other="Hydrogen:out_R"/>
+        </Port>
+      </IO>
+      <IO name="DrumMachine" id="5203" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="5181" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="5183" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="2"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="5193" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="5197" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="5195" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="5199" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="5201" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="5209" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="5208" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="5206" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="5205" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="5210" name="meter-DrumMachine" active="yes" user-latency="0" type="meter"/>
+      <Processor id="5211" name="DrumMachine" active="yes" user-latency="0" own-input="yes" own-output="no" output="DrumMachine" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="5193" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="5197" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="5195" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="5199" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="5201" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="5213" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="DrumMachine.1" name="DrumMachine" id="5217" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
+  </Routes>
+  <Playlists>
+    <Playlist id="5144" name="TheRefreshments-Banditos" type="audio" orig-track-id="5105" frozen="no" combine-ops="0">
+      <Region name="TheRefreshments-Banditos.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="13728706" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5164" type="audio" first-edit="nothing" source-0="5092" source-1="5094" master-source-0="5092" master-source-1="5094" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="5165" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="5166" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="5167" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="5168" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="5218" name="DrumMachine.1" type="audio" orig-track-id="5179" frozen="no" combine-ops="0">
+      <Region name="DrumMachine-1.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="12716416" position="983940" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5843" type="audio" first-edit="nothing" source-0="5221" source-1="5223" master-source-0="5221" master-source-1="5223" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="5844" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="5845" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="5846" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="5847" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </Playlists>
+  <UnusedPlaylists/>
+  <RouteGroups/>
+  <Click>
+    <IO name="Click" id="5005" direction="Output" default-type="audio" user-latency="0">
+      <Port type="audio" name="Click/audio_out 1">
+        <Connection other="system:playback_1"/>
+      </Port>
+      <Port type="audio" name="Click/audio_out 2">
+        <Connection other="system:playback_2"/>
+      </Port>
+    </IO>
+    <Processor id="5006" name="Amp" active="yes" user-latency="0" type="amp">
+      <Controllable name="gaincontrol" id="5004" flags="" value="1.000000000000"/>
+    </Processor>
+  </Click>
+  <LTC-In>
+    <IO name="LTC In" id="5001" direction="Input" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-in">
+        <Connection other="system:capture_1"/>
+      </Port>
+    </IO>
+  </LTC-In>
+  <LTC-Out>
+    <IO name="LTC Out" id="5002" direction="Output" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-out"/>
+    </IO>
+  </LTC-Out>
+  <Speakers>
+    <Speaker azimuth="240" elevation="0" distance="1"/>
+    <Speaker azimuth="120" elevation="0" distance="1"/>
+  </Speakers>
+  <TempoMap>
+    <Tempo start="1|1|0" beats-per-minute="144.800000" note-type="4.000000" movable="no"/>
+    <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+    <Tempo start="8|1|0" beats-per-minute="127.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="11|1|0" beats-per-minute="144.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="13|2|0" beats-per-minute="144.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="16|2|0" beats-per-minute="144.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="22|4|0" beats-per-minute="144.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="24|1|0" beats-per-minute="147.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="32|3|0" beats-per-minute="147.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="38|2|0" beats-per-minute="147.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="41|1|0" beats-per-minute="142.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="44|3|0" beats-per-minute="144.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="47|2|0" beats-per-minute="147.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="58|1|0" beats-per-minute="147.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="60|2|0" beats-per-minute="148.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="62|1|0" beats-per-minute="147.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="63|1|0" beats-per-minute="148.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="67|4|0" beats-per-minute="148.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="71|3|0" beats-per-minute="148.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="74|1|0" beats-per-minute="148.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="76|1|0" beats-per-minute="148.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="78|1|0" beats-per-minute="148.600000" note-type="4.000000" movable="yes"/>
+    <Tempo start="79|4|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="82|4|0" beats-per-minute="146.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="87|3|0" beats-per-minute="146.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="89|2|0" beats-per-minute="146.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="91|2|0" beats-per-minute="147.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="93|1|0" beats-per-minute="147.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="94|4|0" beats-per-minute="148.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="96|3|0" beats-per-minute="147.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="100|1|0" beats-per-minute="147.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="102|3|0" beats-per-minute="147.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="104|3|0" beats-per-minute="148.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="114|4|0" beats-per-minute="148.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="117|2|0" beats-per-minute="148.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="119|1|0" beats-per-minute="142.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="121|2|0" beats-per-minute="144.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="125|2|0" beats-per-minute="146.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="126|3|0" beats-per-minute="147.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="141|1|0" beats-per-minute="147.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="143|2|0" beats-per-minute="148.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="147|3|0" beats-per-minute="147.400000" note-type="4.000000" movable="yes"/>
+  </TempoMap>
+  <ControlProtocols>
+    <Protocol name="Mackie" active="no"/>
+    <Protocol name="Generic MIDI" active="no"/>
+    <Protocol name="Open Sound Control (OSC)" active="no"/>
+    <Protocol name="PreSonus FaderPort" active="no"/>
+  </ControlProtocols>
+  <Extra>
+    <UI>
+      <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="rc-options-editor" visible="no" x-off="834" y-off="590" x-size="719" y-size="675"/>
+      <Window name="session-options-editor" visible="no" x-off="815" y-off="667" x-size="622" y-size="359"/>
+      <Window name="speaker-config" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-5007-5037" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5007-5034" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5007-5038" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5007-5039" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5105-5135" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5105-5132" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5105-5136" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5105-5137" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5179-5209" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5179-5206" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5179-5210" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-5179-5211" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <GUIObjectState>
+        <Object id="automation 28 10/0/0" height="62" visible="0"/>
+        <Object id="strip 28" visible="1" strip-width="Wide">
+          <Object id="processor 49"/>
+        </Object>
+        <Object id="route 116" color="58981:37389:31991"/>
+        <Object id="rtav 116" height="62" visible="1"/>
+        <Object id="automation 139" height="62" visible="0"/>
+        <Object id="automation 142" height="62" visible="0"/>
+        <Object id="automation 116 10/0/0" height="62" visible="0"/>
+        <Object id="automation 126" height="62" visible="0"/>
+        <Object id="automation 130" height="62" visible="0"/>
+        <Object id="strip 116" visible="1">
+          <Object id="processor 137"/>
+        </Object>
+        <Object id="strip 1705" visible="1" strip-width="Wide">
+          <Object id="processor 1732"/>
+        </Object>
+        <Object id="strip 1120" visible="1" strip-width="Wide">
+          <Object id="processor 1147"/>
+        </Object>
+        <Object id="strip 2251" visible="1" strip-width="Wide">
+          <Object id="processor 2278"/>
+        </Object>
+        <Object id="strip 2349" visible="1" strip-width="Wide">
+          <Object id="processor 2376"/>
+        </Object>
+        <Object id="strip 2423" visible="1" strip-width="Wide">
+          <Object id="processor 2450"/>
+        </Object>
+        <Object id="strip 3133" visible="1" strip-width="Wide">
+          <Object id="processor 3160"/>
+        </Object>
+        <Object id="strip 3231" visible="1" strip-width="Wide">
+          <Object id="processor 3258"/>
+        </Object>
+        <Object id="strip 3305" visible="1" strip-width="Wide">
+          <Object id="processor 3332"/>
+        </Object>
+        <Object id="strip 3953" visible="1" strip-width="Wide">
+          <Object id="processor 3980"/>
+        </Object>
+        <Object id="strip 4051" visible="1" strip-width="Wide">
+          <Object id="processor 4078"/>
+        </Object>
+        <Object id="strip 4131" visible="1" strip-width="Wide">
+          <Object id="processor 4158"/>
+        </Object>
+        <Object id="route 5007" color="56837:50404:58981"/>
+        <Object id="rtav 5007" height="64" visible="1"/>
+        <Object id="automation 5033" height="64" visible="0"/>
+        <Object id="automation 5036" height="64" visible="0"/>
+        <Object id="automation 5007 12/0/0" height="64" visible="0"/>
+        <Object id="automation 5021" height="64" visible="0"/>
+        <Object id="automation 5025" height="64" visible="0"/>
+        <Object id="strip 5007" visible="1" strip-width="Wide">
+          <Object id="processor 5034"/>
+        </Object>
+        <Object id="route 5105" color="38337:58981:29490"/>
+        <Object id="rtav 5105" height="64" visible="1"/>
+        <Object id="automation 5131" height="64" visible="0"/>
+        <Object id="automation 5134" height="64" visible="0"/>
+        <Object id="automation 5105 12/0/0" height="64" visible="0"/>
+        <Object id="automation 5119" height="64" visible="0"/>
+        <Object id="automation 5123" height="64" visible="0"/>
+        <Object id="strip 5105" visible="1" strip-width="Wide">
+          <Object id="processor 5132"/>
+        </Object>
+        <Object id="route 5179" color="51536:58981:43578"/>
+        <Object id="rtav 5179" height="64" visible="1"/>
+        <Object id="automation 5205" height="64" visible="0"/>
+        <Object id="automation 5208" height="64" visible="0"/>
+        <Object id="automation 5179 12/0/0" height="64" visible="0"/>
+        <Object id="automation 5193" height="64" visible="0"/>
+        <Object id="automation 5197" height="64" visible="0"/>
+        <Object id="strip 5179" visible="1" strip-width="Wide">
+          <Object id="processor 5206"/>
+        </Object>
+      </GUIObjectState>
+    </UI>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="5176"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="false" channels="2">
+        <Channel number="1">
+          <Port name="DrumMachine/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="DrumMachine/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+      <ExportFilename>
+        <Folder relative="true" path="/export"/>
+        <Field name="label" enabled="false"/>
+        <Field name="session" enabled="true"/>
+        <Field name="timespan" enabled="true"/>
+        <Field name="revision" enabled="false"/>
+        <Field name="time" enabled="false" value="T_None"/>
+        <Field name="date" enabled="false" value="D_None"/>
+      </ExportFilename>
+    </ExportProfile>
+    <Videomonitor active="no"/>
+  </Extra>
+</Session>

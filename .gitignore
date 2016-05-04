@@ -1,6 +1,7 @@
 # Ensure this file isn't ignored
 !.gitignore
 # Ignore anything with these extensions:
+*.w64
 *.wav
 *.mp3
 *.bak

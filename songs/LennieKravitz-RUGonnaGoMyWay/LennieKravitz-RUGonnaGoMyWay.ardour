@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session version="3001" name="LennieKravitz-RUGonnaGoMyWay" sample-rate="48000" id-counter="1068" event-counter="1237">
+  <MIDIPorts>
+    <Port name="MIDI Clock in" direction="input"/>
+    <Port name="MIDI Clock out" direction="output"/>
+    <Port name="MIDI control in" direction="input"/>
+    <Port name="MIDI control out" direction="output"/>
+    <Port name="MMC in" direction="input"/>
+    <Port name="MMC out" direction="output"/>
+    <Port name="MTC in" direction="input"/>
+    <Port name="MTC out" direction="output"/>
+    <Port name="Scene in" direction="input"/>
+    <Port name="Scene out" direction="output"/>
+  </MIDIPorts>
+  <Config>
+    <Option name="destructive-xfade-msecs" value="2"/>
+    <Option name="use-region-fades" value="1"/>
+    <Option name="use-transport-fades" value="1"/>
+    <Option name="use-monitor-fades" value="1"/>
+    <Option name="native-file-data-format" value="0"/>
+    <Option name="native-file-header-format" value="1"/>
+    <Option name="auto-play" value="0"/>
+    <Option name="auto-return" value="0"/>
+    <Option name="auto-input" value="1"/>
+    <Option name="punch-in" value="0"/>
+    <Option name="punch-out" value="0"/>
+    <Option name="subframes-per-frame" value="100"/>
+    <Option name="timecode-format" value="8"/>
+    <Option name="raid-path" value=""/>
+    <Option name="audio-search-path" value=""/>
+    <Option name="midi-search-path" value=""/>
+    <Option name="track-name-number" value="0"/>
+    <Option name="track-name-take" value="0"/>
+    <Option name="take-name" value="Take1"/>
+    <Option name="jack-time-master" value="1"/>
+    <Option name="use-video-sync" value="0"/>
+    <Option name="video-pullup" value="0"/>
+    <Option name="external-sync" value="1"/>
+    <Option name="insert-merge-policy" value="1"/>
+    <Option name="timecode-offset" value="0"/>
+    <Option name="timecode-offset-negative" value="1"/>
+    <Option name="slave-timecode-offset" value=" 00:00:00:00"/>
+    <Option name="timecode-generator-offset" value=" 00:00:00:00"/>
+    <Option name="glue-new-markers-to-bars-and-beats" value="0"/>
+    <Option name="midi-copy-is-fork" value="0"/>
+    <Option name="glue-new-regions-to-bars-and-beats" value="0"/>
+    <Option name="wave-amplitude-zoom" value="0"/>
+    <Option name="wave-zoom-factor" value="2"/>
+    <Option name="show-summary" value="1"/>
+    <Option name="show-group-tabs" value="1"/>
+    <Option name="show-region-fades" value="1"/>
+    <Option name="use-video-file-fps" value="0"/>
+    <Option name="videotimeline-pullup" value="1"/>
+    <Option name="show-busses-on-meterbridge" value="0"/>
+    <Option name="show-master-on-meterbridge" value="1"/>
+    <Option name="show-midi-on-meterbridge" value="1"/>
+    <Option name="show-rec-on-meterbridge" value="1"/>
+    <Option name="show-mute-on-meterbridge" value="0"/>
+    <Option name="show-solo-on-meterbridge" value="0"/>
+    <Option name="show-monitor-on-meterbridge" value="0"/>
+    <Option name="show-name-on-meterbridge" value="1"/>
+    <Option name="meterbridge-label-height" value="0"/>
+  </Config>
+  <Metadata/>
+  <Sources>
+    <Source name="LennieKravitz-RUGonnaGoMyWay%L.wav" type="audio" flags="" id="113" channel="0" origin=""/>
+    <Source name="LennieKravitz-RUGonnaGoMyWay%R.wav" type="audio" flags="" id="115" channel="0" origin=""/>
+    <Source name="DrumMachine-1%L.wav" type="audio" flags="" id="248" captured-for="DrumMachine" channel="0" origin=""/>
+    <Source name="DrumMachine-1%R.wav" type="audio" flags="" id="250" captured-for="DrumMachine" channel="0" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="LennieKravitz-RUGonnaGoMyWay" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10172709" position="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117" type="audio" first-edit="nothing" source-0="113" source-1="115" master-source-0="113" master-source-1="115" channels="2"/>
+    <Region name="DrumMachine-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10571712" position="142104" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1041" type="audio" first-edit="nothing" source-0="248" source-1="250" master-source-0="248" master-source-1="250" channels="2"/>
+  </Regions>
+  <Locations>
+    <Location id="196" name="session" start="142104" end="10713815" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="577" name="Verse01" start="1819566" end="1819566" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="584" name="AudioStart" start="335709" end="335709" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="636" name="Chorus01" start="3261330" end="3261330" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="646" name="Intro02" start="3790750" end="3790750" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="726" name="Verse02" start="4511635" end="4511635" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="849" name="Chorus02" start="5923850" end="5923850" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="945" name="GtrSolo" start="7249970" end="7249970" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="974" name="Outro" start="8804820" end="8804820" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+  </Locations>
+  <Bundles/>
+  <Routes>
+    <Route id="28" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
+      <IO name="Master" id="51" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Master/audio_in 1">
+          <Connection other="DrumMachine/audio_out 1"/>
+          <Connection other="LennieKravitz-RUGonnaGoMyWay/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_in 2">
+          <Connection other="DrumMachine/audio_out 2"/>
+          <Connection other="LennieKravitz-RUGonnaGoMyWay/audio_out 2"/>
+        </Port>
+      </IO>
+      <IO name="Master" id="52" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Master/audio_out 1">
+          <Connection other="system:playback_1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_out 2">
+          <Connection other="system:playback_2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="30" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="32" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="42" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="46" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="44" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="48" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="50" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="58" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="57" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="55" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="54" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="59" name="meter-Master" active="yes" user-latency="0" type="meter"/>
+      <Processor id="60" name="Master" active="yes" user-latency="0" own-input="yes" own-output="no" output="Master" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="42" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="46" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="44" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="48" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="50" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+    </Route>
+    <Route id="126" name="LennieKravitz-RUGonnaGoMyWay" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="LennieKravitz-RUGonnaGoMyWay" id="149" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="LennieKravitz-RUGonnaGoMyWay/audio_in 1"/>
+        <Port type="audio" name="LennieKravitz-RUGonnaGoMyWay/audio_in 2"/>
+      </IO>
+      <IO name="LennieKravitz-RUGonnaGoMyWay" id="150" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="LennieKravitz-RUGonnaGoMyWay/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="LennieKravitz-RUGonnaGoMyWay/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="128" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="130" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="1"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="140" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="144" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="142" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="146" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="148" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="156" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="155" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="153" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="152" flags="" value="0.135149389505"/>
+      </Processor>
+      <Processor id="157" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
+      <Processor id="158" name="LennieKravitz-RUGonnaGoMyWay" active="yes" user-latency="0" own-input="yes" own-output="no" output="LennieKravitz-RUGonnaGoMyWay" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="140" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="144" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="142" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="146" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="148" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="160" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="LennieKravitz-RUGonnaGoMyWay" name="LennieKravitz-RUGonnaGoMyWay" id="164" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
+    <Route id="206" name="DrumMachine" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="2" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="DrumMachine" id="229" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_in 1">
+          <Connection other="Hydrogen:out_L"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_in 2">
+          <Connection other="Hydrogen:out_R"/>
+        </Port>
+      </IO>
+      <IO name="DrumMachine" id="230" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="DrumMachine/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="DrumMachine/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="208" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="210" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Automation/>
+      <RemoteControl id="2"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="220" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="224" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="222" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="226" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="228" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="236" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="235" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="233" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="232" flags="" value="1.000000000000"/>
+      </Processor>
+      <Processor id="237" name="meter-DrumMachine" active="yes" user-latency="0" type="meter"/>
+      <Processor id="238" name="DrumMachine" active="yes" user-latency="0" own-input="yes" own-output="no" output="DrumMachine" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="220" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="224" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="222" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="226" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="228" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Controllable name="recenable" id="240" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="DrumMachine.1" name="DrumMachine" id="244" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
+  </Routes>
+  <Playlists>
+    <Playlist id="165" name="LennieKravitz-RUGonnaGoMyWay" type="audio" orig-track-id="126" frozen="no" combine-ops="0">
+      <Region name="LennieKravitz-RUGonnaGoMyWay.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10172709" position="335744" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="185" type="audio" first-edit="nothing" source-0="113" source-1="115" master-source-0="113" master-source-1="115" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="186" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="187" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="188" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="189" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="245" name="DrumMachine.1" type="audio" orig-track-id="206" frozen="no" combine-ops="0">
+      <Region name="DrumMachine-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10571712" position="142104" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1049" type="audio" first-edit="nothing" source-0="248" source-1="250" master-source-0="248" master-source-1="250" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="1050" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="1051" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="1052" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="1053" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </Playlists>
+  <UnusedPlaylists/>
+  <RouteGroups/>
+  <Click>
+    <IO name="Click" id="26" direction="Output" default-type="audio" user-latency="0">
+      <Port type="audio" name="Click/audio_out 1">
+        <Connection other="system:playback_1"/>
+      </Port>
+      <Port type="audio" name="Click/audio_out 2">
+        <Connection other="system:playback_2"/>
+      </Port>
+    </IO>
+    <Processor id="27" name="Amp" active="yes" user-latency="0" type="amp">
+      <Controllable name="gaincontrol" id="25" flags="" value="1.000000000000"/>
+    </Processor>
+  </Click>
+  <LTC-In>
+    <IO name="LTC In" id="22" direction="Input" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-in">
+        <Connection other="system:capture_1"/>
+      </Port>
+    </IO>
+  </LTC-In>
+  <LTC-Out>
+    <IO name="LTC Out" id="23" direction="Output" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-out"/>
+    </IO>
+  </LTC-Out>
+  <Speakers>
+    <Speaker azimuth="240" elevation="0" distance="1"/>
+    <Speaker azimuth="120" elevation="0" distance="1"/>
+  </Speakers>
+  <TempoMap>
+    <Tempo start="1|1|0" beats-per-minute="126.400000" note-type="4.000000" movable="no"/>
+    <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
+    <Tempo start="2|4|0" beats-per-minute="126.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="4|3|0" beats-per-minute="126.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="5|3|0" beats-per-minute="126.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="6|2|0" beats-per-minute="126.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="7|3|0" beats-per-minute="126.020000" note-type="4.000000" movable="yes"/>
+    <Tempo start="8|4|0" beats-per-minute="126.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="12|4|0" beats-per-minute="126.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="17|3|0" beats-per-minute="126.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="19|1|0" beats-per-minute="127.400000" note-type="4.000000" movable="yes"/>
+    <Tempo start="20|3|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="27|3|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="28|3|0" beats-per-minute="130.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="29|4|0" beats-per-minute="129.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="35|3|0" beats-per-minute="129.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="37|1|0" beats-per-minute="129.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="40|1|0" beats-per-minute="129.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="41|3|0" beats-per-minute="126.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="42|4|0" beats-per-minute="126.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="43|4|0" beats-per-minute="126.100000" note-type="4.000000" movable="yes"/>
+    <Tempo start="45|4|0" beats-per-minute="128.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="46|3|0" beats-per-minute="130.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="48|2|0" beats-per-minute="129.000000" note-type="4.000000" movable="yes"/>
+    <Tempo start="50|4|0" beats-per-minute="128.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="59|4|0" beats-per-minute="128.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="62|1|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="63|1|0" beats-per-minute="130.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="64|2|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="66|3|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="69|4|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="72|1|0" beats-per-minute="125.200000" note-type="4.000000" movable="yes"/>
+    <Tempo start="74|1|0" beats-per-minute="126.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="77|1|0" beats-per-minute="128.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="78|2|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="81|1|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="84|1|0" beats-per-minute="128.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="88|1|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="96|2|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="97|3|0" beats-per-minute="128.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="98|4|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="105|4|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Tempo start="107|2|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Meter start="108|1|0" note-type="4.000000" divisions-per-bar="2.000000" movable="yes"/>
+    <Tempo start="109|1|0" beats-per-minute="129.800000" note-type="4.000000" movable="yes"/>
+    <Meter start="109|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="yes"/>
+  </TempoMap>
+  <ControlProtocols>
+    <Protocol name="Open Sound Control (OSC)" active="no"/>
+    <Protocol name="Mackie" active="no"/>
+    <Protocol name="Generic MIDI" active="no"/>
+    <Protocol name="PreSonus FaderPort" active="no"/>
+  </ControlProtocols>
+  <Extra>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="196"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="false" channels="2">
+        <Channel number="1">
+          <Port name="DrumMachine/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="DrumMachine/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="7bb867db-67b0-4aaf-9987-38c31e15052e"/>
+      <ExportFilename>
+        <Folder relative="true" path="/export"/>
+        <Field name="label" enabled="false"/>
+        <Field name="session" enabled="true"/>
+        <Field name="timespan" enabled="true"/>
+        <Field name="revision" enabled="false"/>
+        <Field name="time" enabled="false" value="T_None"/>
+        <Field name="date" enabled="false" value="D_None"/>
+      </ExportFilename>
+    </ExportProfile>
+    <UI>
+      <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="rc-options-editor" visible="no" x-off="834" y-off="590" x-size="719" y-size="675"/>
+      <Window name="session-options-editor" visible="no" x-off="815" y-off="667" x-size="622" y-size="359"/>
+      <Window name="speaker-config" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-28-58" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-28-55" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-28-59" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-28-60" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-126-156" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-126-153" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-126-157" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-126-158" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-206-236" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-206-233" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-206-237" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-206-238" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <GUIObjectState>
+        <Object id="route 28" color="44727:29490:58981"/>
+        <Object id="rtav 28" height="64" visible="1"/>
+        <Object id="automation 54" height="64" visible="0"/>
+        <Object id="automation 57" height="64" visible="0"/>
+        <Object id="automation 28 12/0/0" height="64" visible="0"/>
+        <Object id="automation 42" height="64" visible="0"/>
+        <Object id="automation 46" height="64" visible="0"/>
+        <Object id="strip 28" visible="1" strip-width="Wide">
+          <Object id="processor 55"/>
+        </Object>
+        <Object id="route 126" color="41287:29490:58981"/>
+        <Object id="strip 126" visible="1" strip-width="Wide">
+          <Object id="processor 153"/>
+        </Object>
+        <Object id="rtav 126" height="64" visible="1"/>
+        <Object id="automation 152" height="64" visible="0"/>
+        <Object id="automation 155" height="64" visible="0"/>
+        <Object id="automation 126 12/0/0" height="64" visible="0"/>
+        <Object id="automation 140" height="64" visible="0"/>
+        <Object id="automation 144" height="64" visible="0"/>
+        <Object id="route 206" color="60780:43663:48798"/>
+        <Object id="strip 206" visible="1" strip-width="Wide">
+          <Object id="processor 233"/>
+        </Object>
+        <Object id="rtav 206" height="64" visible="1"/>
+        <Object id="automation 232" height="64" visible="0"/>
+        <Object id="automation 235" height="64" visible="0"/>
+        <Object id="automation 206 12/0/0" height="64" visible="0"/>
+        <Object id="automation 220" height="64" visible="0"/>
+        <Object id="automation 224" height="64" visible="0"/>
+      </GUIObjectState>
+    </UI>
+    <Videomonitor active="no"/>
+  </Extra>
+</Session>

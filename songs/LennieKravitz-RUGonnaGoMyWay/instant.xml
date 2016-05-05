@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
-  <LastUsedSnapshot name="JasonAldean-MyKindaParty"/>
-  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="1721" snap-to="SnapToBeat" snap-mode="SnapOff" internal-snap-to="SnapToBeat" internal-snap-mode="SnapOff" pre-internal-snap-to="SnapToBeat" pre-internal-snap-mode="SnapOff" edit-point="EditAtMouse" visible-track-count="-1" playhead="241335" left-frame="0" y-origin="0.000000" show-measures="no" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="no" show-editor-list="no" editor-list-page="0" show-marker-lines="no" nudge-clock-value="220500">
+  <Editor id="18" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="1285" snap-to="SnapToBeat" snap-mode="SnapOff" internal-snap-to="SnapToBeat" internal-snap-mode="SnapOff" pre-internal-snap-to="SnapToBeat" pre-internal-snap-mode="SnapOff" edit-point="EditAtMouse" visible-track-count="-1" playhead="142104" left-frame="0" y-origin="0.000000" show-measures="no" maximised="no" follow-playhead="yes" stationary-playhead="no" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" join-object-range="no" show-editor-mixer="no" show-editor-list="no" editor-list-page="0" show-marker-lines="no" nudge-clock-value="220500">
     <geometry x-size="1554" y-size="602" x-pos="1004" y-pos="813" edit-horizontal-pane-pos="462" notebook-shrunk="0" edit-vertical-pane-pos="402"/>
     <Buttons>
       <Press/>
@@ -9,7 +8,7 @@
     </Buttons>
     <Selection>
       <Region id="185"/>
-      <Marker id="1441" start="yes"/>
+      <Marker id="974" start="yes"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
   </Editor>

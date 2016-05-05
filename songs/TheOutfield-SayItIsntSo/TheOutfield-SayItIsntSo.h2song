@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
  <version>0.9.6.1</version>
- <bpm>120</bpm>
+ <bpm>124</bpm>
  <volume>0.584211</volume>
  <metronomeVolume>0.5</metronomeVolume>
  <name>Untitled Song</name>
@@ -1222,7 +1222,7 @@
     <note>
      <position>96</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.75</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1608,7 +1608,7 @@
     <note>
      <position>120</position>
      <leadlag>0</leadlag>
-     <velocity>0.56</velocity>
+     <velocity>0.72</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1632,7 +1632,7 @@
     <note>
      <position>144</position>
      <leadlag>0</leadlag>
-     <velocity>0.33</velocity>
+     <velocity>0.76</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1668,7 +1668,7 @@
     <note>
      <position>168</position>
      <leadlag>0</leadlag>
-     <velocity>0.66</velocity>
+     <velocity>0.81</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1699,7 +1699,7 @@
     <note>
      <position>0</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.72</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1723,7 +1723,7 @@
     <note>
      <position>48</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.63</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1759,7 +1759,7 @@
     <note>
      <position>96</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.67</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1783,7 +1783,7 @@
     <note>
      <position>144</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.61</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1814,7 +1814,7 @@
     <note>
      <position>0</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.71</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1838,7 +1838,7 @@
     <note>
      <position>48</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.59</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1886,7 +1886,7 @@
     <note>
      <position>96</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.7</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1910,7 +1910,7 @@
     <note>
      <position>144</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.64</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1953,7 +1953,7 @@
     <note>
      <position>0</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.72</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -1989,7 +1989,7 @@
     <note>
      <position>48</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.67</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -2025,7 +2025,7 @@
     <note>
      <position>84</position>
      <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
+     <velocity>0.66</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
      <pitch>0</pitch>
@@ -2897,7 +2897,7 @@
    <patternID>Silence</patternID>
   </group>
   <group>
-   <patternID>Silence</patternID>
+   <patternID>Click</patternID>
   </group>
   <group>
    <patternID>Click</patternID>
@@ -2981,7 +2981,6 @@
   </group>
   <group>
    <patternID>vAa</patternID>
-   <patternID>fCrashOn1</patternID>
   </group>
   <group>
    <patternID>vAb</patternID>
@@ -3122,6 +3121,7 @@
   </group>
   <group>
    <patternID>vAa</patternID>
+   <patternID>fCrashOn1</patternID>
   </group>
   <group>
    <patternID>vAb</patternID>
@@ -3140,67 +3140,68 @@
   </group>
   <group>
    <patternID>vAa</patternID>
-  </group>
-  <group>
-   <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>vAa</patternID>
-  </group>
-  <group>
-   <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>vAa</patternID>
-  </group>
-  <group>
-   <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>vAa</patternID>
-  </group>
-  <group>
-   <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>vAd</patternID>
-  </group>
-  <group>
-   <patternID>vAf1</patternID>
-  </group>
-  <group>
-   <patternID>vAd</patternID>
-  </group>
-  <group>
-   <patternID>vAf1</patternID>
-  </group>
-  <group>
-   <patternID>vAa</patternID>
-  </group>
-  <group>
-   <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>vAa</patternID>
-  </group>
-  <group>
-   <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>vAa</patternID>
-  </group>
-  <group>
-   <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>vAd</patternID>
-  </group>
-  <group>
-   <patternID>vAf1</patternID>
-  </group>
-  <group>
-   <patternID>vAa</patternID>
    <patternID>fCrashOn1</patternID>
+  </group>
+  <group>
+   <patternID>vAb</patternID>
+  </group>
+  <group>
+   <patternID>vAa</patternID>
+  </group>
+  <group>
+   <patternID>vAb</patternID>
+  </group>
+  <group>
+   <patternID>vAa</patternID>
+  </group>
+  <group>
+   <patternID>vAb</patternID>
+  </group>
+  <group>
+   <patternID>vAa</patternID>
+  </group>
+  <group>
+   <patternID>vAb</patternID>
+  </group>
+  <group>
+   <patternID>vAd</patternID>
+   <patternID>fCrashOn1</patternID>
+  </group>
+  <group>
+   <patternID>vAf1</patternID>
+  </group>
+  <group>
+   <patternID>vAd</patternID>
+  </group>
+  <group>
+   <patternID>vAf1</patternID>
+  </group>
+  <group>
+   <patternID>vAa</patternID>
+  </group>
+  <group>
+   <patternID>vAb</patternID>
+  </group>
+  <group>
+   <patternID>vAa</patternID>
+  </group>
+  <group>
+   <patternID>vAb</patternID>
+  </group>
+  <group>
+   <patternID>vAa</patternID>
+  </group>
+  <group>
+   <patternID>vAb</patternID>
+  </group>
+  <group>
+   <patternID>vAd</patternID>
+  </group>
+  <group>
+   <patternID>vAf1</patternID>
+  </group>
+  <group>
+   <patternID>vAa</patternID>
   </group>
   <group>
    <patternID>vAb</patternID>
@@ -3247,43 +3248,6 @@
   </group>
   <group>
    <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>vAa</patternID>
-  </group>
-  <group>
-   <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>vAa</patternID>
-  </group>
-  <group>
-   <patternID>vAb</patternID>
-  </group>
-  <group>
-   <patternID>Silence</patternID>
-   <patternID>fCrashOn1</patternID>
-  </group>
-  <group>
-   <patternID>Silence</patternID>
-  </group>
-  <group>
-   <patternID>Silence</patternID>
-  </group>
-  <group>
-   <patternID>Silence</patternID>
-  </group>
-  <group>
-   <patternID>Silence</patternID>
-  </group>
-  <group>
-   <patternID>Silence</patternID>
-  </group>
-  <group>
-   <patternID>Silence</patternID>
-  </group>
-  <group>
-   <patternID>Silence</patternID>
   </group>
   <group>
    <patternID>Silence</patternID>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="TheCult-LoveRemovalMachine" sample-rate="48000" id-counter="2427" event-counter="2037">
+<Session version="3002" name="TheCult-LoveRemovalMachine" sample-rate="48000" end-is-free="1" id-counter="2788" name-counter="1" event-counter="2042" vca-counter="1">
+  <ProgramVersion created-with="unknown" modified-with="Ardour 5.10"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -17,15 +18,19 @@
     <Option name="use-region-fades" value="1"/>
     <Option name="use-transport-fades" value="1"/>
     <Option name="use-monitor-fades" value="1"/>
-    <Option name="native-file-data-format" value="0"/>
-    <Option name="native-file-header-format" value="1"/>
+    <Option name="native-file-data-format" value="FormatFloat"/>
+    <Option name="native-file-header-format" value="WAVE"/>
     <Option name="auto-play" value="0"/>
     <Option name="auto-return" value="0"/>
     <Option name="auto-input" value="1"/>
     <Option name="punch-in" value="0"/>
     <Option name="punch-out" value="0"/>
+    <Option name="count-in" value="0"/>
+    <Option name="session-monitoring" value=""/>
+    <Option name="layered-record-mode" value="0"/>
     <Option name="subframes-per-frame" value="100"/>
-    <Option name="timecode-format" value="8"/>
+    <Option name="timecode-format" value="timecode_30"/>
+    <Option name="minitimeline-span" value="120"/>
     <Option name="raid-path" value=""/>
     <Option name="audio-search-path" value=""/>
     <Option name="midi-search-path" value=""/>
@@ -36,7 +41,7 @@
     <Option name="use-video-sync" value="0"/>
     <Option name="video-pullup" value="0"/>
     <Option name="external-sync" value="1"/>
-    <Option name="insert-merge-policy" value="1"/>
+    <Option name="insert-merge-policy" value="InsertMergeRelax"/>
     <Option name="timecode-offset" value="0"/>
     <Option name="timecode-offset-negative" value="1"/>
     <Option name="slave-timecode-offset" value=" 00:00:00:00"/>
@@ -44,13 +49,14 @@
     <Option name="glue-new-markers-to-bars-and-beats" value="0"/>
     <Option name="midi-copy-is-fork" value="0"/>
     <Option name="glue-new-regions-to-bars-and-beats" value="0"/>
+    <Option name="realtime-export" value="0"/>
+    <Option name="use-video-file-fps" value="0"/>
+    <Option name="videotimeline-pullup" value="1"/>
     <Option name="wave-amplitude-zoom" value="0"/>
     <Option name="wave-zoom-factor" value="2"/>
     <Option name="show-summary" value="1"/>
     <Option name="show-group-tabs" value="1"/>
     <Option name="show-region-fades" value="1"/>
-    <Option name="use-video-file-fps" value="0"/>
-    <Option name="videotimeline-pullup" value="1"/>
     <Option name="show-busses-on-meterbridge" value="0"/>
     <Option name="show-master-on-meterbridge" value="1"/>
     <Option name="show-midi-on-meterbridge" value="1"/>
@@ -62,29 +68,42 @@
     <Option name="meterbridge-label-height" value="0"/>
   </Config>
   <Metadata/>
-  <Sources/>
-  <Regions/>
+  <Sources>
+    <Source name="TheCult-LoveRemovalMachine%L.wav" type="audio" flags="" id="2686" channel="0" origin="" gain="1"/>
+    <Source name="TheCult-LoveRemovalMachine%R.wav" type="audio" flags="" id="2688" channel="0" origin="" gain="1"/>
+  </Sources>
+  <Regions>
+    <Region name="TheCult-LoveRemovalMachine" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="12368001" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2690" type="audio" first-edit="nothing" source-0="2686" source-1="2688" master-source-0="2686" master-source-1="2688" channels="2"/>
+  </Regions>
+  <Selection>
+    <StripableAutomationControl stripable="2700" control="0" order="8"/>
+  </Selection>
   <Locations>
-    <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
-    <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
-    <Location id="889" name="Verse1" start="1789952" end="1789952" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
-    <Location id="1107" name="Chorus2" start="5838848" end="5838848" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
-    <Location id="1844" name="Chorus1" start="3151872" end="3151872" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
-    <Location id="1851" name="Verse2" start="4515840" end="4515840" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
-    <Location id="1858" name="Intro2" start="3846144" end="3846144" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
-    <Location id="1871" name="Solo1" start="7094272" end="7094272" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
-    <Location id="1889" name="Outro" start="10240000" end="10240000" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
-    <Location id="2404" name="AudioStart" start="352222" end="352222" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
+    <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="889" name="Verse1" start="1789952" end="1789952" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="1107" name="Chorus2" start="5838848" end="5838848" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="1844" name="Chorus1" start="3151872" end="3151872" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="1851" name="Verse2" start="4515840" end="4515840" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="1858" name="Intro2" start="3846144" end="3846144" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="1871" name="Solo1" start="7094272" end="7094272" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="1889" name="Outro" start="10240000" end="10240000" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
+    <Location id="2404" name="AudioStart" start="352222" end="352222" flags="IsMark" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
+  <VCAManager/>
   <Routes>
-    <Route id="340" name="Master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20" order-key="0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
+    <Route id="340" name="Master" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterK20">
+      <PresentationInfo order="0" flags="MasterOut" color="3112094975"/>
+      <Controllable name="solo" id="342" flags="Toggle" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="2455" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="2457" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Master" id="359" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_in 1">
-          <Connection other="TheCult-LoveRemovalMachine/audio_out 1"/>
+          <Connection other="LoveRemovalMachine/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
-          <Connection other="TheCult-LoveRemovalMachine/audio_out 2"/>
+          <Connection other="LoveRemovalMachine/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Master" id="360" direction="Output" default-type="audio" user-latency="0">
@@ -95,92 +114,185 @@
           <Connection other="system:playback_2"/>
         </Port>
       </IO>
-      <Controllable name="solo" id="342" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="344" flags="Toggle" value="0.000000000000"/>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Automation/>
-      <RemoteControl id="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="344" flags="Toggle" value="0"/>
+      <Controllable name="phase" id="2453" flags="Toggle" value="0" phase-invert="00"/>
+      <Automation>
+        <AutomationList automation-id="gain" id="2444" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute"/>
+        <AutomationList automation-id="solo" id="2448" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="solo-iso" id="2454" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="solo-safe" id="2456" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="mute" id="2450" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="trim" id="2446" default="1" min-yval="0.10000000149011612" max-yval="10" interpolation-style="Linear" state="Off" style="Absolute"/>
+        <AutomationList automation-id="phase" id="2452" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+      </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="350" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="354" flags="" value="1.000000000000"/>
-        <Controllable name="pan-elevation" id="352" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="356" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="358" flags="" value="0.000000000000"/>
-        <Automation/>
+        <Controllable name="pan-azimuth" id="350" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="354" flags="" value="1"/>
+        <Controllable name="pan-elevation" id="352" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="356" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="358" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="2459" default="0.5" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          <AutomationList automation-id="pan-elevation" id="2461" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          <AutomationList automation-id="pan-width" id="2463" default="0" min-yval="-1" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          <AutomationList automation-id="pan-frontback" id="2465" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          <AutomationList automation-id="pan-lfe" id="2467" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+        </Automation>
       </Pannable>
-      <Processor id="364" name="Amp" active="yes" user-latency="0" type="trim">
-        <Controllable name="trimcontrol" id="366" flags="GainLike" value="1.000000000000"/>
+      <Processor id="364" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="2446" default="1" min-yval="0.10000000149011612" max-yval="10" interpolation-style="Linear" state="Off" style="Absolute"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="366" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="361" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="363" flags="GainLike" value="1.000000000000"/>
+      <Processor id="361" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="2444" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="363" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="367" name="meter-Master" active="yes" user-latency="0" type="meter"/>
-      <Processor id="368" name="Master" active="yes" user-latency="0" own-input="yes" own-output="no" output="Master" type="main-outs" role="Main">
-        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+      <Processor id="367" name="meter-Master" active="1" user-latency="0" type="meter"/>
+      <Processor id="368" name="Master" active="1" user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="350" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="354" flags="" value="1.000000000000"/>
-          <Controllable name="pan-elevation" id="352" flags="" value="0.000000000000"/>
-          <Controllable name="pan-frontback" id="356" flags="" value="0.000000000000"/>
-          <Controllable name="pan-lfe" id="358" flags="" value="0.000000000000"/>
-          <Automation/>
+          <Controllable name="pan-azimuth" id="350" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="354" flags="" value="1"/>
+          <Controllable name="pan-elevation" id="352" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="356" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="358" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="2459" default="0.5" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+            <AutomationList automation-id="pan-elevation" id="2461" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+            <AutomationList automation-id="pan-width" id="2463" default="0" min-yval="-1" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+            <AutomationList automation-id="pan-frontback" id="2465" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+            <AutomationList automation-id="pan-lfe" id="2467" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          </Automation>
         </Pannable>
       </Processor>
+      <Slavable/>
     </Route>
-    <Route id="428" name="TheCult-LoveRemovalMachine" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" order-key="1" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
-      <IO name="TheCult-LoveRemovalMachine" id="447" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="TheCult-LoveRemovalMachine/audio_in 1">
-          <Connection other="system:capture_1"/>
+    <Route id="2700" name="LoveRemovalMachine" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="0" flags="AudioTrack,OrderSet" color="2291787263"/>
+      <Controllable name="solo" id="2708" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="2714" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="2716" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="LoveRemovalMachine" id="2728" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="LoveRemovalMachine/audio_in 1">
+          <Connection other="system:capture_3"/>
         </Port>
-        <Port type="audio" name="TheCult-LoveRemovalMachine/audio_in 2">
-          <Connection other="system:capture_2"/>
+        <Port type="audio" name="LoveRemovalMachine/audio_in 2">
+          <Connection other="system:capture_4"/>
         </Port>
       </IO>
-      <IO name="TheCult-LoveRemovalMachine" id="448" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="TheCult-LoveRemovalMachine/audio_out 1">
+      <IO name="LoveRemovalMachine" id="2729" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="LoveRemovalMachine/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="TheCult-LoveRemovalMachine/audio_out 2">
+        <Port type="audio" name="LoveRemovalMachine/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <Controllable name="solo" id="430" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="432" flags="Toggle" value="0.000000000000"/>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
-      <Automation/>
-      <RemoteControl id="1"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="2710" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="2712" flags="Toggle" value="0" phase-invert="00"/>
+      <Automation>
+        <AutomationList automation-id="gain" id="2703" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute"/>
+        <AutomationList automation-id="solo" id="2707" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="solo-iso" id="2713" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="solo-safe" id="2715" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="mute" id="2709" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="rec-enable" id="2735" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="rec-safe" id="2737" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="trim" id="2705" default="1" min-yval="0.10000000149011612" max-yval="10" interpolation-style="Linear" state="Off" style="Absolute"/>
+        <AutomationList automation-id="phase" id="2711" default="0" min-yval="0" max-yval="1" interpolation-style="Discrete" state="Off" style="Absolute"/>
+        <AutomationList automation-id="monitor" id="2739" default="0" min-yval="0" max-yval="2" interpolation-style="Discrete" state="Off" style="Absolute"/>
+      </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="438" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="442" flags="" value="1.000000000000"/>
-        <Controllable name="pan-elevation" id="440" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="444" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="446" flags="" value="0.000000000000"/>
-        <Automation/>
+        <Controllable name="pan-azimuth" id="2719" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="2723" flags="" value="1"/>
+        <Controllable name="pan-elevation" id="2721" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="2725" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="2727" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="2718" default="0.5" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          <AutomationList automation-id="pan-elevation" id="2720" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          <AutomationList automation-id="pan-width" id="2722" default="0" min-yval="-1" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          <AutomationList automation-id="pan-frontback" id="2724" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          <AutomationList automation-id="pan-lfe" id="2726" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+        </Automation>
       </Pannable>
-      <Processor id="452" name="Amp" active="yes" user-latency="0" type="trim">
-        <Controllable name="trimcontrol" id="454" flags="GainLike" value="1.000000000000"/>
+      <Processor id="2731" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="2705" default="1" min-yval="0.10000000149011612" max-yval="10" interpolation-style="Linear" state="Off" style="Absolute"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="2706" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="449" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="451" flags="GainLike" value="0.014468486421"/>
+      <Processor id="2730" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="2703" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="2704" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="455" name="meter-Audio  1" active="yes" user-latency="0" type="meter"/>
-      <Processor id="456" name="TheCult-LoveRemovalMachine" active="yes" user-latency="0" own-input="yes" own-output="no" output="TheCult-LoveRemovalMachine" type="main-outs" role="Main">
-        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+      <Processor id="2732" name="meter-Audio  1" active="1" user-latency="0" type="meter"/>
+      <Processor id="2733" name="LoveRemovalMachine" active="1" user-latency="0" own-input="1" own-output="0" output="LoveRemovalMachine" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="438" flags="" value="0.500000000000"/>
-          <Controllable name="pan-width" id="442" flags="" value="1.000000000000"/>
-          <Controllable name="pan-elevation" id="440" flags="" value="0.000000000000"/>
-          <Controllable name="pan-frontback" id="444" flags="" value="0.000000000000"/>
-          <Controllable name="pan-lfe" id="446" flags="" value="0.000000000000"/>
-          <Automation/>
+          <Controllable name="pan-azimuth" id="2719" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="2723" flags="" value="1"/>
+          <Controllable name="pan-elevation" id="2721" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="2725" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="2727" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="2718" default="0.5" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+            <AutomationList automation-id="pan-elevation" id="2720" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+            <AutomationList automation-id="pan-width" id="2722" default="0" min-yval="-1" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+            <AutomationList automation-id="pan-frontback" id="2724" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+            <AutomationList automation-id="pan-lfe" id="2726" default="0" min-yval="0" max-yval="1" interpolation-style="Linear" state="Off" style="Absolute"/>
+          </Automation>
         </Pannable>
       </Processor>
-      <Controllable name="recenable" id="458" flags="Toggle" value="0.000000000000"/>
-      <Diskstream flags="Recordable" playlist="TheCult-LoveRemovalMachine" name="TheCult-LoveRemovalMachine" id="460" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+      <Slavable/>
+      <Controllable name="monitor" id="2740" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="2738" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="2736" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="TheCult-LoveRemovalMachine" name="TheCult-LoveRemovalMachine" id="2741" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
   </Routes>
   <Playlists>
-    <Playlist id="461" name="TheCult-LoveRemovalMachine" type="audio" orig-track-id="428" frozen="no" combine-ops="0"/>
+    <Playlist id="2742" name="TheCult-LoveRemovalMachine" type="audio" orig-track-id="2700" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="TheCult-LoveRemovalMachine.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="12368001" position="186368" beat="8.2571377777777766" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="2771" type="audio" first-edit="nothing" source-0="2686" source-1="2688" master-source-0="2686" master-source-1="2688" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="2772" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="2773" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="2774" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="2775" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists/>
   <RouteGroups/>
@@ -193,19 +305,22 @@
         <Connection other="system:playback_2"/>
       </Port>
     </IO>
-    <Processor id="337" name="Amp" active="yes" user-latency="0" type="amp">
-      <Controllable name="gaincontrol" id="339" flags="GainLike" value="1.000000000000"/>
+    <Processor id="337" name="Amp" active="1" user-latency="0" type="amp">
+      <Automation>
+        <AutomationList automation-id="gain" id="2700" default="1" min-yval="0" max-yval="2" interpolation-style="Linear" state="Off" style="Absolute"/>
+      </Automation>
+      <Controllable name="gaincontrol" id="339" flags="GainLike" value="1"/>
     </Processor>
   </Click>
   <LTC-In>
-    <IO name="LTC In" id="1037" direction="Input" default-type="audio" user-latency="0">
+    <IO name="LTC In" id="2698" direction="Input" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-in">
         <Connection other="system:capture_1"/>
       </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
-    <IO name="LTC Out" id="1038" direction="Output" default-type="audio" user-latency="0">
+    <IO name="LTC Out" id="2699" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="LTC-out"/>
     </IO>
   </LTC-Out>
@@ -214,61 +329,64 @@
     <Speaker azimuth="120" elevation="0" distance="1"/>
   </Speakers>
   <TempoMap>
-    <Tempo start="1|1|0" beats-per-minute="127.600000" note-type="4.000000" movable="no"/>
-    <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
-    <Tempo start="3|3|0" beats-per-minute="128.600000" note-type="4.000000" movable="yes"/>
-    <Tempo start="5|2|0" beats-per-minute="129.600000" note-type="4.000000" movable="yes"/>
-    <Tempo start="6|3|0" beats-per-minute="132.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="8|2|0" beats-per-minute="133.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="12|2|0" beats-per-minute="136.400000" note-type="4.000000" movable="yes"/>
-    <Tempo start="15|2|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
-    <Tempo start="17|3|0" beats-per-minute="134.400000" note-type="4.000000" movable="yes"/>
-    <Tempo start="21|3|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
-    <Tempo start="27|4|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="29|2|0" beats-per-minute="136.400000" note-type="4.000000" movable="yes"/>
-    <Tempo start="35|4|0" beats-per-minute="137.400000" note-type="4.000000" movable="yes"/>
-    <Tempo start="38|1|0" beats-per-minute="137.800000" note-type="4.000000" movable="yes"/>
-    <Tempo start="41|2|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="46|1|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="49|2|0" beats-per-minute="137.400000" note-type="4.000000" movable="yes"/>
-    <Tempo start="52|2|0" beats-per-minute="136.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="53|4|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="54|4|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="60|4|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
-    <Tempo start="68|4|0" beats-per-minute="138.800000" note-type="4.000000" movable="yes"/>
-    <Tempo start="72|4|0" beats-per-minute="138.200000" note-type="4.000000" movable="yes"/>
-    <Tempo start="74|2|0" beats-per-minute="139.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="76|2|0" beats-per-minute="140.800000" note-type="4.000000" movable="yes"/>
-    <Tempo start="78|3|0" beats-per-minute="140.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="81|2|0" beats-per-minute="139.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="84|3|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="86|1|0" beats-per-minute="140.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="90|2|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="94|3|0" beats-per-minute="141.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="97|4|0" beats-per-minute="141.800000" note-type="4.000000" movable="yes"/>
-    <Tempo start="99|4|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="104|3|0" beats-per-minute="144.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="106|3|0" beats-per-minute="140.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="108|2|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="112|4|0" beats-per-minute="143.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="116|4|0" beats-per-minute="142.800000" note-type="4.000000" movable="yes"/>
-    <Tempo start="118|4|0" beats-per-minute="143.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="121|4|0" beats-per-minute="148.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="124|1|0" beats-per-minute="191.800000" note-type="4.000000" movable="yes"/>
-    <Tempo start="127|4|0" beats-per-minute="194.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="130|4|0" beats-per-minute="198.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="139|2|0" beats-per-minute="197.200000" note-type="4.000000" movable="yes"/>
-    <Tempo start="141|3|0" beats-per-minute="199.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="143|3|0" beats-per-minute="202.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="145|4|0" beats-per-minute="200.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="149|2|0" beats-per-minute="199.000000" note-type="4.000000" movable="yes"/>
-    <Tempo start="154|1|0" beats-per-minute="202.000000" note-type="4.000000" movable="yes"/>
+    <Tempo pulse="0" frame="0" movable="0" lock-style="AudioTime" beats-per-minute="127.59999999999999" note-type="4" clamped="0" end-beats-per-minute="127.59999999999999" active="1" locked-to-meter="1"/>
+    <Meter pulse="0" frame="0" movable="0" lock-style="AudioTime" bbt="1|1|0" beat="0" note-type="4" divisions-per-bar="4"/>
+    <Tempo pulse="2.5" frame="225705" movable="1" lock-style="MusicTime" beats-per-minute="128.59999999999999" note-type="4" clamped="0" end-beats-per-minute="128.59999999999999" active="1" locked-to-meter="0"/>
+    <Tempo pulse="4.25" frame="382470" movable="1" lock-style="MusicTime" beats-per-minute="129.59999999999999" note-type="4" clamped="0" end-beats-per-minute="129.59999999999999" active="1" locked-to-meter="0"/>
+    <Tempo pulse="5.5" frame="493582" movable="1" lock-style="MusicTime" beats-per-minute="132" note-type="4" clamped="0" end-beats-per-minute="132" active="1" locked-to-meter="0"/>
+    <Tempo pulse="7.25" frame="646309" movable="1" lock-style="MusicTime" beats-per-minute="133" note-type="4" clamped="0" end-beats-per-minute="133" active="1" locked-to-meter="0"/>
+    <Tempo pulse="11.25" frame="992775" movable="1" lock-style="MusicTime" beats-per-minute="136.40000000000001" note-type="4" clamped="0" end-beats-per-minute="136.40000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="14.25" frame="1246147" movable="1" lock-style="MusicTime" beats-per-minute="134.80000000000001" note-type="4" clamped="0" end-beats-per-minute="134.80000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="16.5" frame="1438432" movable="1" lock-style="MusicTime" beats-per-minute="134.40000000000001" note-type="4" clamped="0" end-beats-per-minute="134.40000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="20.5" frame="1781289" movable="1" lock-style="MusicTime" beats-per-minute="136.59999999999999" note-type="4" clamped="0" end-beats-per-minute="136.59999999999999" active="1" locked-to-meter="0"/>
+    <Tempo pulse="26.75" frame="2308376" movable="1" lock-style="MusicTime" beats-per-minute="135" note-type="4" clamped="0" end-beats-per-minute="135" active="1" locked-to-meter="0"/>
+    <Tempo pulse="28.25" frame="2436376" movable="1" lock-style="MusicTime" beats-per-minute="136.40000000000001" note-type="4" clamped="0" end-beats-per-minute="136.40000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="34.75" frame="2985349" movable="1" lock-style="MusicTime" beats-per-minute="137.40000000000001" note-type="4" clamped="0" end-beats-per-minute="137.40000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="37" frame="3173996" movable="1" lock-style="MusicTime" beats-per-minute="137.80000000000001" note-type="4" clamped="0" end-beats-per-minute="137.80000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="40.25" frame="3445694" movable="1" lock-style="MusicTime" beats-per-minute="138" note-type="4" clamped="0" end-beats-per-minute="138" active="1" locked-to-meter="0"/>
+    <Tempo pulse="45" frame="3842216" movable="1" lock-style="MusicTime" beats-per-minute="138" note-type="4" clamped="0" end-beats-per-minute="138" active="1" locked-to-meter="0"/>
+    <Tempo pulse="48.25" frame="4113520" movable="1" lock-style="MusicTime" beats-per-minute="137.40000000000001" note-type="4" clamped="0" end-beats-per-minute="137.40000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="51.25" frame="4365048" movable="1" lock-style="MusicTime" beats-per-minute="136" note-type="4" clamped="0" end-beats-per-minute="136" active="1" locked-to-meter="0"/>
+    <Tempo pulse="52.75" frame="4492107" movable="1" lock-style="MusicTime" beats-per-minute="135" note-type="4" clamped="0" end-beats-per-minute="135" active="1" locked-to-meter="0"/>
+    <Tempo pulse="53.75" frame="4577441" movable="1" lock-style="MusicTime" beats-per-minute="138" note-type="4" clamped="0" end-beats-per-minute="138" active="1" locked-to-meter="0"/>
+    <Tempo pulse="59.75" frame="5078310" movable="1" lock-style="MusicTime" beats-per-minute="136.80000000000001" note-type="4" clamped="0" end-beats-per-minute="136.80000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="67.75" frame="5751994" movable="1" lock-style="MusicTime" beats-per-minute="138.80000000000001" note-type="4" clamped="0" end-beats-per-minute="138.80000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="71.75" frame="6083983" movable="1" lock-style="MusicTime" beats-per-minute="138.19999999999999" note-type="4" clamped="0" end-beats-per-minute="138.19999999999999" active="1" locked-to-meter="0"/>
+    <Tempo pulse="73.25" frame="6209019" movable="1" lock-style="MusicTime" beats-per-minute="139" note-type="4" clamped="0" end-beats-per-minute="139" active="1" locked-to-meter="0"/>
+    <Tempo pulse="75.25" frame="6374774" movable="1" lock-style="MusicTime" beats-per-minute="140.80000000000001" note-type="4" clamped="0" end-beats-per-minute="140.80000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="77.5" frame="6558865" movable="1" lock-style="MusicTime" beats-per-minute="140" note-type="4" clamped="0" end-beats-per-minute="140" active="1" locked-to-meter="0"/>
+    <Tempo pulse="80.25" frame="6785151" movable="1" lock-style="MusicTime" beats-per-minute="139" note-type="4" clamped="0" end-beats-per-minute="139" active="1" locked-to-meter="0"/>
+    <Tempo pulse="83.5" frame="7054503" movable="1" lock-style="MusicTime" beats-per-minute="138" note-type="4" clamped="0" end-beats-per-minute="138" active="1" locked-to-meter="0"/>
+    <Tempo pulse="85" frame="7179721" movable="1" lock-style="MusicTime" beats-per-minute="140" note-type="4" clamped="0" end-beats-per-minute="140" active="1" locked-to-meter="0"/>
+    <Tempo pulse="89.25" frame="7529435" movable="1" lock-style="MusicTime" beats-per-minute="142" note-type="4" clamped="0" end-beats-per-minute="142" active="1" locked-to-meter="0"/>
+    <Tempo pulse="93.5" frame="7874224" movable="1" lock-style="MusicTime" beats-per-minute="141" note-type="4" clamped="0" end-beats-per-minute="141" active="1" locked-to-meter="0"/>
+    <Tempo pulse="96.75" frame="8139756" movable="1" lock-style="MusicTime" beats-per-minute="141.80000000000001" note-type="4" clamped="0" end-beats-per-minute="141.80000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="98.75" frame="8302238" movable="1" lock-style="MusicTime" beats-per-minute="142" note-type="4" clamped="0" end-beats-per-minute="142" active="1" locked-to-meter="0"/>
+    <Tempo pulse="103.5" frame="8687590" movable="1" lock-style="MusicTime" beats-per-minute="144" note-type="4" clamped="0" end-beats-per-minute="144" active="1" locked-to-meter="0"/>
+    <Tempo pulse="105.5" frame="8847590" movable="1" lock-style="MusicTime" beats-per-minute="140" note-type="4" clamped="0" end-beats-per-minute="140" active="1" locked-to-meter="0"/>
+    <Tempo pulse="107.25" frame="8991590" movable="1" lock-style="MusicTime" beats-per-minute="142" note-type="4" clamped="0" end-beats-per-minute="142" active="1" locked-to-meter="0"/>
+    <Tempo pulse="111.75" frame="9356661" movable="1" lock-style="MusicTime" beats-per-minute="143" note-type="4" clamped="0" end-beats-per-minute="143" active="1" locked-to-meter="0"/>
+    <Tempo pulse="115.75" frame="9678898" movable="1" lock-style="MusicTime" beats-per-minute="142.80000000000001" note-type="4" clamped="0" end-beats-per-minute="142.80000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="117.75" frame="9840243" movable="1" lock-style="MusicTime" beats-per-minute="143" note-type="4" clamped="0" end-beats-per-minute="143" active="1" locked-to-meter="0"/>
+    <Tempo pulse="120.75" frame="10081921" movable="1" lock-style="MusicTime" beats-per-minute="148" note-type="4" clamped="0" end-beats-per-minute="148" active="1" locked-to-meter="0"/>
+    <Tempo pulse="123" frame="10257056" movable="1" lock-style="MusicTime" beats-per-minute="191.80000000000001" note-type="4" clamped="0" end-beats-per-minute="191.80000000000001" active="1" locked-to-meter="0"/>
+    <Tempo pulse="126.75" frame="10482291" movable="1" lock-style="MusicTime" beats-per-minute="194" note-type="4" clamped="0" end-beats-per-minute="194" active="1" locked-to-meter="0"/>
+    <Tempo pulse="129.75" frame="10660435" movable="1" lock-style="MusicTime" beats-per-minute="198" note-type="4" clamped="0" end-beats-per-minute="198" active="1" locked-to-meter="0"/>
+    <Tempo pulse="138.25" frame="11154981" movable="1" lock-style="MusicTime" beats-per-minute="197.19999999999999" note-type="4" clamped="0" end-beats-per-minute="197.19999999999999" active="1" locked-to-meter="0"/>
+    <Tempo pulse="140.5" frame="11286421" movable="1" lock-style="MusicTime" beats-per-minute="199" note-type="4" clamped="0" end-beats-per-minute="199" active="1" locked-to-meter="0"/>
+    <Tempo pulse="142.5" frame="11402200" movable="1" lock-style="MusicTime" beats-per-minute="202" note-type="4" clamped="0" end-beats-per-minute="202" active="1" locked-to-meter="0"/>
+    <Tempo pulse="144.75" frame="11530517" movable="1" lock-style="MusicTime" beats-per-minute="200" note-type="4" clamped="0" end-beats-per-minute="200" active="1" locked-to-meter="0"/>
+    <Tempo pulse="148.25" frame="11732117" movable="1" lock-style="MusicTime" beats-per-minute="199" note-type="4" clamped="0" end-beats-per-minute="199" active="1" locked-to-meter="0"/>
+    <Tempo pulse="153" frame="12007092" movable="1" lock-style="MusicTime" beats-per-minute="202" note-type="4" clamped="0" end-beats-per-minute="202" active="1" locked-to-meter="0"/>
   </TempoMap>
   <ControlProtocols>
-    <Protocol name="Mackie" active="no"/>
-    <Protocol name="Generic MIDI" active="no"/>
-    <Protocol name="Open Sound Control (OSC)" active="no"/>
-    <Protocol name="Faderport" active="no"/>
+    <Protocol name="Open Sound Control (OSC)" active="0"/>
+    <Protocol name="Generic MIDI" active="0"/>
+    <Protocol name="PreSonus FaderPort8" active="0"/>
+    <Protocol name="Mackie" active="0"/>
+    <Protocol name="Steinberg CC121" active="0"/>
+    <Protocol name="PreSonus FaderPort" active="0"/>
+    <Protocol name="Ableton Push 2" active="0"/>
   </ControlProtocols>
   <Extra>
     <UI>
@@ -333,6 +451,7 @@
         <Object id="automation 442" height="62" visible="0"/>
       </GUIObjectState>
     </UI>
-    <Videomonitor active="no"/>
+    <Videomonitor active="0"/>
   </Extra>
+  <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>
 </Session>

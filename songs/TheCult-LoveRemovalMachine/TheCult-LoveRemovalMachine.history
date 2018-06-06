@@ -1,125 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1455264645" tv-usec="1742287126" name="replace tempo mark">
-    <MementoCommand obj-id="28" type-name="ARDOUR::TempoMap">
-      <TempoMap>
-        <Tempo start="1|1|0" beats-per-minute="127.600000" note-type="4.000000" movable="no"/>
-        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
-        <Tempo start="3|3|0" beats-per-minute="128.600000" note-type="4.000000" movable="yes"/>
-        <Tempo start="5|2|0" beats-per-minute="129.600000" note-type="4.000000" movable="yes"/>
-        <Tempo start="6|3|0" beats-per-minute="132.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="8|2|0" beats-per-minute="133.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="12|2|0" beats-per-minute="136.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="15|2|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="17|3|0" beats-per-minute="134.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="21|3|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
-        <Tempo start="27|4|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="29|2|0" beats-per-minute="136.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="35|4|0" beats-per-minute="137.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="38|1|0" beats-per-minute="137.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="41|2|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="49|2|0" beats-per-minute="137.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="52|2|0" beats-per-minute="136.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="53|4|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="54|4|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="60|4|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="68|4|0" beats-per-minute="138.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="72|4|0" beats-per-minute="138.200000" note-type="4.000000" movable="yes"/>
-        <Tempo start="74|2|0" beats-per-minute="139.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="76|2|0" beats-per-minute="140.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="78|3|0" beats-per-minute="140.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="81|2|0" beats-per-minute="139.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="84|3|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="86|1|0" beats-per-minute="140.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="90|2|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="94|3|0" beats-per-minute="141.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="97|4|0" beats-per-minute="141.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="99|4|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="104|3|0" beats-per-minute="144.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="106|3|0" beats-per-minute="140.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="108|2|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="112|4|0" beats-per-minute="143.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="116|4|0" beats-per-minute="142.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="118|4|0" beats-per-minute="143.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="121|4|0" beats-per-minute="148.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="124|1|0" beats-per-minute="191.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="127|4|0" beats-per-minute="194.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="130|4|0" beats-per-minute="198.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="139|2|0" beats-per-minute="197.200000" note-type="4.000000" movable="yes"/>
-        <Tempo start="141|3|0" beats-per-minute="199.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="143|3|0" beats-per-minute="202.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="145|4|0" beats-per-minute="200.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="149|2|0" beats-per-minute="199.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="156|1|0" beats-per-minute="192.000000" note-type="4.000000" movable="yes"/>
-      </TempoMap>
-      <TempoMap>
-        <Tempo start="1|1|0" beats-per-minute="127.600000" note-type="4.000000" movable="no"/>
-        <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
-        <Tempo start="3|3|0" beats-per-minute="128.600000" note-type="4.000000" movable="yes"/>
-        <Tempo start="5|2|0" beats-per-minute="129.600000" note-type="4.000000" movable="yes"/>
-        <Tempo start="6|3|0" beats-per-minute="132.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="8|2|0" beats-per-minute="133.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="12|2|0" beats-per-minute="136.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="15|2|0" beats-per-minute="134.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="17|3|0" beats-per-minute="134.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="21|3|0" beats-per-minute="136.600000" note-type="4.000000" movable="yes"/>
-        <Tempo start="27|4|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="29|2|0" beats-per-minute="136.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="35|4|0" beats-per-minute="137.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="38|1|0" beats-per-minute="137.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="41|2|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="49|2|0" beats-per-minute="137.400000" note-type="4.000000" movable="yes"/>
-        <Tempo start="52|2|0" beats-per-minute="136.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="53|4|0" beats-per-minute="135.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="54|4|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="60|4|0" beats-per-minute="136.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="68|4|0" beats-per-minute="138.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="72|4|0" beats-per-minute="138.200000" note-type="4.000000" movable="yes"/>
-        <Tempo start="74|2|0" beats-per-minute="139.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="76|2|0" beats-per-minute="140.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="78|3|0" beats-per-minute="140.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="81|2|0" beats-per-minute="139.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="84|3|0" beats-per-minute="138.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="86|1|0" beats-per-minute="140.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="90|2|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="94|3|0" beats-per-minute="141.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="97|4|0" beats-per-minute="141.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="99|4|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="104|3|0" beats-per-minute="144.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="106|3|0" beats-per-minute="140.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="108|2|0" beats-per-minute="142.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="112|4|0" beats-per-minute="143.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="116|4|0" beats-per-minute="142.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="118|4|0" beats-per-minute="143.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="121|4|0" beats-per-minute="148.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="124|1|0" beats-per-minute="191.800000" note-type="4.000000" movable="yes"/>
-        <Tempo start="127|4|0" beats-per-minute="194.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="130|4|0" beats-per-minute="198.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="139|2|0" beats-per-minute="197.200000" note-type="4.000000" movable="yes"/>
-        <Tempo start="141|3|0" beats-per-minute="199.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="143|3|0" beats-per-minute="202.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="145|4|0" beats-per-minute="200.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="149|2|0" beats-per-minute="199.000000" note-type="4.000000" movable="yes"/>
-        <Tempo start="156|1|0" beats-per-minute="190.000000" note-type="4.000000" movable="yes"/>
-      </TempoMap>
-    </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10813440" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1107" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10813440" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1107" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1455264805" tv-usec="1742287126" name="replace tempo mark">
-    <MementoCommand obj-id="28" type-name="ARDOUR::TempoMap">
+    <MementoCommand obj-id="2704" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo start="1|1|0" beats-per-minute="127.600000" note-type="4.000000" movable="no"/>
         <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
@@ -221,23 +103,9 @@
         <Tempo start="156|1|0" beats-per-minute="200.000000" note-type="4.000000" movable="yes"/>
       </TempoMap>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10895360" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1107" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10895360" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1107" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455264827" tv-usec="1742287126" name="replace tempo mark">
-    <MementoCommand obj-id="28" type-name="ARDOUR::TempoMap">
+    <MementoCommand obj-id="2704" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo start="1|1|0" beats-per-minute="127.600000" note-type="4.000000" movable="no"/>
         <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
@@ -339,23 +207,9 @@
         <Tempo start="156|1|0" beats-per-minute="202.000000" note-type="4.000000" movable="yes"/>
       </TempoMap>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10895360" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1107" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10895360" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1107" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455264847" tv-usec="1742287126" name="move tempo mark">
-    <MementoCommand obj-id="28" type-name="ARDOUR::TempoMap">
+    <MementoCommand obj-id="2704" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo start="1|1|0" beats-per-minute="127.600000" note-type="4.000000" movable="no"/>
         <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
@@ -457,23 +311,9 @@
         <Tempo start="154|1|0" beats-per-minute="202.000000" note-type="4.000000" movable="yes"/>
       </TempoMap>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10895360" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1107" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="10895360" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1107" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455264886" tv-usec="1742287126" name="move marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="14127233" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -487,23 +327,9 @@
         <Location id="1107" name="Chorus2" start="5838848" end="5838848" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="11911168" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="492" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="11911168" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="492" start="no"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455699152" tv-usec="1742287126" name="add marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -518,23 +344,9 @@
         <Location id="1844" name="mark1" start="3151872" end="3151872" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="1458176" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="492" start="no"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="1458176" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1844" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455699161" tv-usec="1742287126" name="rename marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -550,23 +362,9 @@
         <Location id="1844" name="Chorus1" start="3151872" end="3151872" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="1458176" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1844" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="1458176" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1844" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455699626" tv-usec="1742287126" name="add marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -583,23 +381,9 @@
         <Location id="1851" name="mark1" start="4515840" end="4515840" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4206592" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1844" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4206592" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1851" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455699633" tv-usec="1742287126" name="rename marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -617,23 +401,9 @@
         <Location id="1851" name="Verse2" start="4515840" end="4515840" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4206592" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1851" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="4206592" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1851" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455699678" tv-usec="1742287126" name="add marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -652,23 +422,9 @@
         <Location id="1858" name="mark1" start="3846144" end="3846144" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="3328000" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1851" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="3328000" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1858" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455699687" tv-usec="1742287126" name="rename marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -688,23 +444,9 @@
         <Location id="1858" name="Intro2" start="3846144" end="3846144" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="3328000" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1858" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="3328000" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1858" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455699769" tv-usec="1742287126" name="add tempo mark">
-    <MementoCommand obj-id="28" type-name="ARDOUR::TempoMap">
+    <MementoCommand obj-id="2704" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo start="1|1|0" beats-per-minute="127.600000" note-type="4.000000" movable="no"/>
         <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
@@ -807,23 +549,9 @@
         <Tempo start="154|1|0" beats-per-minute="202.000000" note-type="4.000000" movable="yes"/>
       </TempoMap>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="3178496" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1858" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="3178496" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1858" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455699781" tv-usec="1742287126" name="move tempo mark">
-    <MementoCommand obj-id="28" type-name="ARDOUR::TempoMap">
+    <MementoCommand obj-id="2704" type-name="ARDOUR::TempoMap">
       <TempoMap>
         <Tempo start="1|1|0" beats-per-minute="127.600000" note-type="4.000000" movable="no"/>
         <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
@@ -927,23 +655,9 @@
         <Tempo start="154|1|0" beats-per-minute="202.000000" note-type="4.000000" movable="yes"/>
       </TempoMap>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="3178496" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1858" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="3178496" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1858" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455700652" tv-usec="1742287126" name="add marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -963,24 +677,10 @@
         <Location id="1858" name="Intro2" start="3846144" end="3846144" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
         <Location id="1871" name="mark1" start="7118848" end="7118848" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="6737920" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1858" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="6737920" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455700666" tv-usec="1742287126" name="rename marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -1002,23 +702,9 @@
         <Location id="1871" name="Solo1" start="7118848" end="7118848" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="6737920" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="6737920" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455700673" tv-usec="1742287126" name="move marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -1040,23 +726,9 @@
         <Location id="1871" name="Solo1" start="7094272" end="7094272" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="6737920" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="6737920" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455701451" tv-usec="1742287126" name="new range marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -1078,24 +750,10 @@
         <Location id="1871" name="Solo1" start="7094272" end="7094272" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
         <Location id="1882" name="range1" start="10240000" end="10583552" flags="IsRangeMarker" locked="no" position-lock-style="AudioTime"/>
       </Locations>
-    </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="9486336" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="9486336" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455701456" tv-usec="1742287126" name="remove marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -1118,23 +776,9 @@
         <Location id="1871" name="Solo1" start="7094272" end="7094272" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="9486336" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="9486336" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455701466" tv-usec="1742287126" name="add marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -1157,23 +801,9 @@
         <Location id="1889" name="mark1" start="10240000" end="10240000" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="9486336" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1871" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="9486336" y-origin="0.000000">
-        <Selection>
-          <Region id="481"/>
-          <Marker id="1889" start="yes"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
   </UndoTransaction>
   <UndoTransaction tv-sec="1455701472" tv-usec="1742287126" name="rename marker">
-    <MementoCommand obj-id="14" type-name="ARDOUR::Locations">
+    <MementoCommand obj-id="2692" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="492" name="session" start="186368" end="12724353" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
         <Location id="535" name="Click" start="292864" end="292864" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -1197,17 +827,26 @@
         <Location id="1889" name="Outro" start="10240000" end="10240000" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
       </Locations>
     </MementoCommand>
-    <MementoCommand obj-id="19" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="9486336" y-origin="0.000000">
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1511587772" tv-usec="891583" name="insert file">
+    <StatefulDiffCommand obj-id="2742" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="2771"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="951" left-frame="0" y-origin="0">
         <Selection>
-          <Region id="481"/>
-          <Marker id="1889" start="yes"/>
+          <RouteView id="428"/>
+          <Marker id="2404" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="9486336" y-origin="0.000000">
+      <SelectionMemento mouse-mode="MouseObject" zoom="951" left-frame="0" y-origin="0">
         <Selection>
-          <Region id="481"/>
-          <Marker id="1889" start="yes"/>
+          <RouteView id="2700"/>
+          <Marker id="2404" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
